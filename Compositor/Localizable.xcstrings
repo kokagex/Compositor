@@ -5828,6 +5828,16 @@
         }
       }
     },
+    "Installing Compositor %@ would replace this local build. Merge the new version into the source and build it again." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compositor %@ をインストールすると、このローカルビルドが置き換わります。新しいバージョンをソースに取り込み、ビルドし直してください。"
+          }
+        }
+      }
+    },
     "Inverse" : {
       "localizations" : {
         "ja" : {
@@ -11156,6 +11166,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この調整の種類はサポートされていないため、スキップしました。"
+          }
+        }
+      }
+    },
+    "This build doesn’t install updates" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このビルドではアップデートをインストールできません"
           }
         }
       }
