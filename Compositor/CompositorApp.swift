@@ -154,6 +154,7 @@ struct CompositorApp: App {
                             .configuredKeyboardShortcut("h", modifiers: [.command, .option])
                         Button("Show All") { NSApp.unhideAllApplications(nil) }
                     }
+                    LanguageCommands()
                 }
                 CommandGroup(replacing: .pasteboard) {
                     // Canvas pixels when the canvas has focus; text fields keep their own editing.

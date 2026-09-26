@@ -2838,6 +2838,16 @@
         }
       }
     },
+    "Default (English)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デフォルト（英語）"
+          }
+        }
+      }
+    },
     "Default colors" : {
       "localizations" : {
         "ja" : {
@@ -5930,6 +5940,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "キーボードショートカット…"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "言語"
           }
         }
       }
@@ -11026,6 +11046,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レイヤーマスクを 8 bit グレースケールに変換できなかったため、スキップしました。"
+          }
+        }
+      }
+    },
+    "The new language takes effect the next time you open Compositor." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい言語は、Compositor を次に開いたときに反映されます。"
           }
         }
       }
