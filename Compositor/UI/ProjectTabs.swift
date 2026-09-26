@@ -295,7 +295,7 @@ private struct ProjectTabButton: View {
         .frame(width: projectTabPillWidth(tab, active: active), height: 28, alignment: .leading)
         .background(targeted ? Color.accentColor.opacity(0.3) : Color.white.opacity(active ? 0.12 : 0.035), in: Capsule())
         .overlay(Capsule().strokeBorder(targeted ? Color.accentColor : Color.white.opacity(active ? 0.22 : 0.08), lineWidth: targeted ? 2 : 1))
-        .help(targeted ? "Add to \(tab.title)" : tab.title)
+        .help(targeted ? String(localized: "Add to \(tab.title)") : tab.title)
         .onDrop(of: [UTType.fileURL.identifier, UTType.image.identifier, ProjectWorkspace.layerType], delegate:
             ProjectTabDropDelegate(workspace: workspace, destination: tab.id, targeted: $targeted))
     }
