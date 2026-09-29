@@ -26,7 +26,7 @@ struct NewCanvasSheet: View {
                             Text("Custom").tag(CanvasPreset?.none)
                             ForEach(CanvasPreset.groups.indices, id: \.self) { group in
                                 Divider()
-                                ForEach(CanvasPreset.groups[group]) { Text($0.title).tag(CanvasPreset?.some($0)) }
+                                ForEach(CanvasPreset.groups[group]) { Text(LocalizedStringKey($0.title)).tag(CanvasPreset?.some($0)) }
                             }
                         }
                         .pickerStyle(.inline).labelsHidden()

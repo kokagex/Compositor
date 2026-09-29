@@ -158,7 +158,7 @@ struct NativeLayerList: NSViewRepresentable {
 
             // A folder right-clicked can be ungrouped: its layers stay where they are, and the folder goes.
             if rows[row].isGroup {
-                let ungroupItem = NSMenuItem(title: "Ungroup Layers", action: #selector(ungroupLayersAction), keyEquivalent: "")
+                let ungroupItem = NSMenuItem(title: String(localized: "Ungroup Layers"), action: #selector(ungroupLayersAction), keyEquivalent: "")
                 ungroupItem.target = self
                 ungroupItem.isEnabled = validateMenuItem(ungroupItem)
                 menu.addItem(ungroupItem)
@@ -571,7 +571,7 @@ final class LayerTableView: NSTableView {
                             fraction: 1, respectFlipped: true, hints: nil)
             return true
         }
-        image.accessibilityDescription = "Show mask alone"
+        image.accessibilityDescription = String(localized: "Show mask alone")
         return NSCursor(image: image, hotSpot: base.hotSpot)
     }()
     override func updateTrackingAreas() {

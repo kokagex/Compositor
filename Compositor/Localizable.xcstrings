@@ -100,6 +100,16 @@
         }
       }
     },
+    "%@ × %@ px · sRGB" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ × %2$@ px · sRGB"
+          }
+        }
+      }
+    },
     "%@. Double-click to reset." : {
       "localizations" : {
         "ja" : {
@@ -126,6 +136,16 @@
         }
       }
     },
+    "%lld more tabs" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "他 %lld 個のタブ"
+          }
+        }
+      }
+    },
     "%lld × %lld px" : {
       "shouldTranslate" : false
     },
@@ -137,6 +157,26 @@
     },
     "%lld°  %lld" : {
       "shouldTranslate" : false
+    },
+    "(Multiple)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "（複数）"
+          }
+        }
+      }
+    },
+    "1 more tab" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "他 1 個のタブ"
+          }
+        }
+      }
     },
     "100%" : {
       "shouldTranslate" : false
@@ -202,6 +242,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "バージョン 1 より少し強めです。下のスライダーは現在の仕上がりにはまだ遠く及びません。"
+          }
+        }
+      }
+    },
+    "A subdivision every %@ pixels." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分割線は %@ ピクセルごとです。"
           }
         }
       }
@@ -402,12 +452,32 @@
         }
       }
     },
+    "Add layer mask (Option-click for a black mask)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーマスクを追加（Option+クリックで黒のマスク）"
+          }
+        }
+      }
+    },
     "Add layer mask (the selection becomes black)" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "レイヤーマスクを追加（選択範囲が黒になります）"
+          }
+        }
+      }
+    },
+    "Add layer mask revealing the selection (Option-click to hide it)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択範囲を表示するレイヤーマスクを追加（Option+クリックで選択範囲を隠す）"
           }
         }
       }
@@ -1490,6 +1560,16 @@
         }
       }
     },
+    "Choose a custom grid color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グリッドのカスタムカラーを選択"
+          }
+        }
+      }
+    },
     "Choose a single key with optional modifiers." : {
       "localizations" : {
         "ja" : {
@@ -1706,6 +1786,16 @@
         }
       }
     },
+    "Click the image to add that color to the selection" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像をクリックしてそのカラーを選択範囲に追加"
+          }
+        }
+      }
+    },
     "Click the image to center this range on that color" : {
       "localizations" : {
         "ja" : {
@@ -1722,6 +1812,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画像をクリックして、その色を除外するようにこの範囲を狭めます"
+          }
+        }
+      }
+    },
+    "Click the image to pick the color to select." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像をクリックして、選択するカラーを指定します。"
+          }
+        }
+      }
+    },
+    "Click the image to select that color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像をクリックしてそのカラーを選択"
+          }
+        }
+      }
+    },
+    "Click the image to take that color out of the selection" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像をクリックしてそのカラーを選択範囲から除外"
           }
         }
       }
@@ -1988,6 +2108,16 @@
         }
       }
     },
+    "Color Picker (%@)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラーピッカー（%@）"
+          }
+        }
+      }
+    },
     "Color Picker (Background Color)" : {
       "localizations" : {
         "ja" : {
@@ -2080,12 +2210,68 @@
         }
       }
     },
+    "Color Range" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色域指定"
+          }
+        }
+      }
+    },
+    "Color Range Invert" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反転"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invert"
+          }
+        }
+      }
+    },
+    "Color Range…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色域指定…"
+          }
+        }
+      }
+    },
     "Color Smoothness" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "カラーの滑らかさ"
+          }
+        }
+      }
+    },
+    "Color for the added canvas" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加されるカンバスのカラー"
+          }
+        }
+      }
+    },
+    "Color that fills transparent areas" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明な部分を塗りつぶすカラー"
           }
         }
       }
@@ -2674,6 +2860,16 @@
         }
       }
     },
+    "Cyan" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シアン"
+          }
+        }
+      }
+    },
     "Cyan / Red" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -2762,6 +2958,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ダーク"
+          }
+        }
+      }
+    },
+    "Dashed Lines" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "破線"
           }
         }
       }
@@ -3252,6 +3458,16 @@
         }
       }
     },
+    "Dots" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドット"
+          }
+        }
+      }
+    },
     "Drag a color in the picture. Nearby color families move together." : {
       "localizations" : {
         "ja" : {
@@ -3338,6 +3554,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画像上をドラッグすると、ポインターの下の階調に対応するカーブを動かせます。"
+          }
+        }
+      }
+    },
+    "Drag or scroll to move around; double-click switches between Fit and 100%" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドラッグまたはスクロールで移動。ダブルクリックで全体表示と 100% を切り替え"
           }
         }
       }
@@ -4164,6 +4390,16 @@
         }
       }
     },
+    "Extension Color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバス拡張カラー"
+          }
+        }
+      }
+    },
     "Extension color" : {
       "localizations" : {
         "ja" : {
@@ -4634,6 +4870,16 @@
         }
       }
     },
+    "Fuzziness" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許容量"
+          }
+        }
+      }
+    },
     "Gamma" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -4848,6 +5094,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "グリッド"
+          }
+        }
+      }
+    },
+    "Grid Color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グリッドのカラー"
+          }
+        }
+      }
+    },
+    "Grid Settings…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グリッド設定…"
+          }
+        }
+      }
+    },
+    "Gridline every" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グリッド線の間隔"
           }
         }
       }
@@ -5194,6 +5470,16 @@
         }
       }
     },
+    "Hide Selection" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択範囲を隠す"
+          }
+        }
+      }
+    },
     "Hide Stroke" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -5316,6 +5602,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "水平定規"
+          }
+        }
+      }
+    },
+    "How far a color may be from the picked ones and still be selected" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指定したカラーからどこまで離れたカラーを選択に含めるか"
           }
         }
       }
@@ -5828,6 +6124,36 @@
         }
       }
     },
+    "Instagram Portrait" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram 縦長"
+          }
+        }
+      }
+    },
+    "Instagram Square" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram 正方形"
+          }
+        }
+      }
+    },
+    "Instagram Story" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram ストーリーズ"
+          }
+        }
+      }
+    },
     "Installing Compositor %@ would replace this local build. Merge the new version into the source and build it again." : {
       "localizations" : {
         "ja" : {
@@ -5888,6 +6214,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ピクセル / マスクを反転"
+          }
+        }
+      }
+    },
+    "JPEG Background" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JPEG の背景"
           }
         }
       }
@@ -6026,6 +6362,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レイヤー効果"
+          }
+        }
+      }
+    },
+    "Layer Mask" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーマスク"
           }
         }
       }
@@ -6212,6 +6558,36 @@
         }
       }
     },
+    "Light Blue" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトブルー"
+          }
+        }
+      }
+    },
+    "Light Gray" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトグレー"
+          }
+        }
+      }
+    },
+    "Light Red" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトレッド"
+          }
+        }
+      }
+    },
     "Light on Dark" : {
       "localizations" : {
         "ja" : {
@@ -6366,6 +6742,16 @@
         }
       }
     },
+    "Lines" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライン"
+          }
+        }
+      }
+    },
     "Link Layer Mask" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -6494,6 +6880,16 @@
         }
       }
     },
+    "Lock aspect ratio. Hold Shift while dragging a handle to turn it the other way." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "縦横比を固定します。ハンドルのドラッグ中に Shift を押すと一時的に逆になります。"
+          }
+        }
+      }
+    },
     "Lock original aspect ratio" : {
       "localizations" : {
         "ja" : {
@@ -6584,6 +6980,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mac パターン"
+          }
+        }
+      }
+    },
+    "Magenta" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マゼンタ"
           }
         }
       }
@@ -6870,6 +7276,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "クリックしたピクセル、またはその周囲のピクセルの平均に合わせます"
+          }
+        }
+      }
+    },
+    "Medium Blue" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミディアムブルー"
           }
         }
       }
@@ -7724,6 +8140,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "塗りつぶしを合成するための、選択されていない不透明なピクセルが足りません。周囲に画像が残るよう、より小さな選択範囲を使用してください。"
+          }
+        }
+      }
+    },
+    "Nothing is selected, so there’s nowhere to paint. Choose Select › Deselect (⌘D) to paint anywhere." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何も選択されていないため、ペイントできる場所がありません。どこにでもペイントするには、選択範囲 › 選択を解除 (⌘D) を選びます。"
           }
         }
       }
@@ -8630,6 +9056,26 @@
         }
       }
     },
+    "Preset sizes" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリセットサイズ"
+          }
+        }
+      }
+    },
+    "Preset sizes for screens and common formats" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面や一般的なフォーマット向けのプリセットサイズ"
+          }
+        }
+      }
+    },
     "Press 1–9 for 10–90%, 0 for 100%" : {
       "localizations" : {
         "ja" : {
@@ -9426,6 +9872,16 @@
         }
       }
     },
+    "Reveal Selection" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択範囲を表示"
+          }
+        }
+      }
+    },
     "Reverse" : {
       "localizations" : {
         "ja" : {
@@ -9756,6 +10212,16 @@
         }
       }
     },
+    "Select everything except those colors, such as all but a green screen" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指定したカラー以外をすべて選択します（グリーンバック以外をすべて選択する場合など）"
+          }
+        }
+      }
+    },
     "Select image pixels" : {
       "localizations" : {
         "ja" : {
@@ -9776,6 +10242,16 @@
         }
       }
     },
+    "Select layer mask; Option-click to view it alone; Shift-click to enable/disable; Cmd-click to select its black areas (Cmd-Shift adds, Cmd-Option subtracts)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーマスクを選択 · Option+クリックでマスクのみを表示 · Shift+クリックで有効/無効を切り替え · ⌘+クリックで黒い領域を選択（⌘+Shift で追加、⌘+Option で削除）"
+          }
+        }
+      }
+    },
     "Select layer mask; Shift-click to enable/disable; Cmd-click to select its black areas (Cmd-Shift adds, Cmd-Option subtracts)" : {
       "localizations" : {
         "ja" : {
@@ -9792,6 +10268,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レイヤーを選択。Cmd+クリックでピクセルを選択（Cmd+Shift で追加、Cmd+Option で削除）"
+          }
+        }
+      }
+    },
+    "Select layers by clicking the canvas. Hold Command to turn it the other way while you click." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバスをクリックしてレイヤーを選択します。クリック中に Command を押すと一時的に逆になります。"
           }
         }
       }
@@ -9916,6 +10402,16 @@
         }
       }
     },
+    "Several layers are selected. Select just one to paint on it." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "複数のレイヤーが選択されています。ペイントするにはレイヤーを 1 つだけ選択してください。"
+          }
+        }
+      }
+    },
     "Shadow Clipping Indicator" : {
       "localizations" : {
         "ja" : {
@@ -10006,6 +10502,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shift+U（または Tab）で長方形・楕円形・ラインを切り替え"
+          }
+        }
+      }
+    },
+    "Shift-click adds a color, Option-click takes one away." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shift+クリックでカラーを追加、Option+クリックでカラーを除外します。"
           }
         }
       }
@@ -10316,12 +10822,42 @@
         }
       }
     },
+    "Show mask alone" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マスクのみを表示"
+          }
+        }
+      }
+    },
+    "Show the image again (or Option-click the mask thumbnail)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像を再表示（またはマスクのサムネールを Option+クリック）"
+          }
+        }
+      }
+    },
     "Show the transform box and handles (⌘H). When hidden, drag anywhere to move the layer." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "変形ボックスとハンドルを表示します (⌘H)。非表示のときは、どこをドラッグしてもレイヤーを移動できます。"
+          }
+        }
+      }
+    },
+    "Show the whole image (⌘0)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像全体を表示 (⌘0)"
           }
         }
       }
@@ -10572,6 +11108,16 @@
         }
       }
     },
+    "Stop viewing the mask" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マスクの表示を終了"
+          }
+        }
+      }
+    },
     "Straightens barrel or pincushion bending." : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -10716,6 +11262,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "スタイル"
+          }
+        }
+      }
+    },
+    "Subdivisions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分割数"
           }
         }
       }
@@ -11056,6 +11612,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レイヤーマスクを 8 bit グレースケールに変換できなかったため、スキップしました。"
+          }
+        }
+      }
+    },
+    "The layer mask is turned off. Shift-click its thumbnail to turn it on, then paint." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーマスクが無効になっています。サムネールを Shift+クリックして有効にしてからペイントしてください。"
           }
         }
       }
@@ -11626,6 +12192,16 @@
         }
       }
     },
+    "Ungroup Layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーのグループ解除"
+          }
+        }
+      }
+    },
     "Uniform" : {
       "localizations" : {
         "ja" : {
@@ -11728,6 +12304,16 @@
         }
       }
     },
+    "Updating…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新中…"
+          }
+        }
+      }
+    },
     "Upright" : {
       "localizations" : {
         "ja" : {
@@ -11744,6 +12330,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 辺あたり 1〜%@ ピクセル、最大 %lld メガピクセル、1〜9,600 pixel/inch の範囲で指定してください。"
+          }
+        }
+      }
+    },
+    "Use gridlines every %lld–%@ pixels and %lld–%lld subdivisions, no more than the pixels between gridlines." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グリッド線の間隔は %1$lld〜%2$@ ピクセル、分割数は %3$lld〜%4$lld で、グリッド線の間のピクセル数以下にしてください。"
           }
         }
       }
@@ -12066,6 +12662,16 @@
         }
       }
     },
+    "Yellow" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イエロー"
+          }
+        }
+      }
+    },
     "Yellow / Blue" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -12084,6 +12690,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "イエロー系"
+          }
+        }
+      }
+    },
+    "YouTube Thumb" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YouTube サムネール"
           }
         }
       }
@@ -12158,6 +12774,16 @@
         }
       }
     },
+    "Zoom in (⌘+), now %@. At 100%% each pixel of the JPEG is one pixel of the screen, as on the canvas" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ズームイン (⌘+)、現在 %@。100%% では、カンバスと同じく JPEG の 1 ピクセルが画面の 1 ピクセルになります"
+          }
+        }
+      }
+    },
     "Zoom out" : {
       "localizations" : {
         "ja" : {
@@ -12174,6 +12800,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ズームアウト (⌘−)"
+          }
+        }
+      }
+    },
+    "Zoom out (⌘−), now %@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ズームアウト (⌘−)、現在 %@"
           }
         }
       }
@@ -12316,6 +12952,16 @@
         }
       }
     },
+    "pixels" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ピクセル"
+          }
+        }
+      }
+    },
     "pixels/inch" : {
       "localizations" : {
         "ja" : {
@@ -12384,6 +13030,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "· エンコード後のプレビュー（ウインドウに合わせて表示）"
+          }
+        }
+      }
+    },
+    "“%@” is a folder, which has no pixels of its own. Paint on a layer inside it, or on the folder’s mask." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」はフォルダーで、それ自体のピクセルはありません。中のレイヤーか、フォルダーのマスクにペイントしてください。"
+          }
+        }
+      }
+    },
+    "“%@” is an adjustment layer, with no pixels to paint. Paint on its mask instead." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」は調整レイヤーで、ペイントできるピクセルがありません。代わりにそのマスクにペイントしてください。"
+          }
+        }
+      }
+    },
+    "“%@” is hidden, or inside a hidden folder. Show it to paint on it." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」は非表示か、非表示のフォルダーの中にあります。ペイントするには表示してください。"
           }
         }
       }

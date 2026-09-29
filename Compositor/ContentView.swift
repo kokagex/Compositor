@@ -215,7 +215,7 @@ struct ContentView: View {
             if closed { colorRangePanel.close() }
             else {
                 colorRangePanel.onClose = { session.cancelColorRange() }
-                colorRangePanel.show(title: "Color Range", content: ColorRangeSheet(session: session))
+                colorRangePanel.show(title: String(localized: "Color Range"), content: ColorRangeSheet(session: session))
             }
         }
         .onChange(of: session.hueSaturation == nil) { _, closed in

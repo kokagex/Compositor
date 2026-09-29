@@ -138,7 +138,7 @@ final class ProjectController {
         let settings: (LayoutGrid, GridAppearance)? = await withCheckedContinuation { continuation in
             let sheet = NSWindow()
             sheet.styleMask = [.titled, .fullSizeContentView]
-            sheet.title = "Grid"
+            sheet.title = String(localized: "Grid")
             sheet.contentViewController = NSHostingController(rootView: GridSettingsSheet(
                 session: session, grid: original.grid, appearance: original.appearance,
                 preview: { [session] grid, appearance in
