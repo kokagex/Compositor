@@ -1228,6 +1228,16 @@
         }
       }
     },
+    "Break the lines into glowing beads" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラインを光る粒に分けます"
+          }
+        }
+      }
+    },
     "Brightens or darkens the corners to counter lens falloff." : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -3498,6 +3508,16 @@
         }
       }
     },
+    "Drag a point. Click to add one. Double-click a point to remove it." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ポイントをドラッグします。クリックすると追加、ポイントをダブルクリックすると削除します。"
+          }
+        }
+      }
+    },
     "Drag a rectangle · Shift add · Option subtract · Shift again mid-drag square · Drag inside to move · ⌘-drag moves pixels · Delete clears · ⌘D deselect" : {
       "localizations" : {
         "ja" : {
@@ -5194,6 +5214,26 @@
         }
       }
     },
+    "How far apart the screen's lines are" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面のライン同士の間隔"
+          }
+        }
+      }
+    },
+    "How far the blur softens, in pixels" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ぼかしが及ぶ範囲（ピクセル単位）"
+          }
+        }
+      }
+    },
     "HSL" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -6558,6 +6598,16 @@
         }
       }
     },
+    "Light blooming around the lines, like a CRT's phosphors" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CRT の蛍光体のように、ラインの周りににじむ光"
+          }
+        }
+      }
+    },
     "Light Blue" : {
       "localizations" : {
         "ja" : {
@@ -6672,6 +6722,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "行の高さ（ベースライン間の距離）。空欄または 0 は自動（フォントサイズの 120%）です。"
+          }
+        }
+      }
+    },
+    "Line Spacing" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライン間隔"
           }
         }
       }
@@ -7054,6 +7114,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ディザの各ピクセルをこのピクセル数の大きさにして、昔の画面のような粗い見た目にします"
+          }
+        }
+      }
+    },
+    "Make the lines waver sideways down the screen, like a CRT losing sync" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同期が乱れた CRT のように、ラインを画面の下へ向かって左右に揺らします"
           }
         }
       }
@@ -10146,6 +10216,16 @@
         }
       }
     },
+    "Scanlines (CRT)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "走査線（CRT）"
+          }
+        }
+      }
+    },
     "Screen" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -12624,6 +12704,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "幅"
+          }
+        }
+      }
+    },
+    "Wobble" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揺れ"
           }
         }
       }
