@@ -4,11 +4,41 @@
     "" : {
       "shouldTranslate" : false
     },
+    " · %lld DPI: %lld × %lld pixels" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " · %lld DPI: %lld × %lld ピクセル"
+          }
+        }
+      }
+    },
     "#" : {
       "shouldTranslate" : false
     },
     "%" : {
       "shouldTranslate" : false
+    },
+    "%@ %@ is now available — you have %@. Would you like to download it now?" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ %2$@ が公開されています (現在のバージョンは %3$@)。今すぐダウンロードしますか?"
+          }
+        }
+      }
+    },
+    "%@ %@ is ready to install — you have %@." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ %2$@ をインストールする準備ができました (現在のバージョンは %3$@)。"
+          }
+        }
+      }
     },
     "%@ color" : {
       "localizations" : {
@@ -80,6 +110,16 @@
         }
       }
     },
+    "%@ · Original" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · 元の設定"
+          }
+        }
+      }
+    },
     "%@ · [ ] size · Shift-[ ] hardness · 1–0 opacity · Escape cancel · Space to pan" : {
       "localizations" : {
         "ja" : {
@@ -146,6 +186,16 @@
         }
       }
     },
+    "%lld ms · %@ fps" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ms · %@ fps"
+          }
+        }
+      }
+    },
     "%lld × %lld px" : {
       "shouldTranslate" : false
     },
@@ -168,6 +218,16 @@
         }
       }
     },
+    ", EXR to keep light brighter than white" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "、白より明るい光を保つ EXR"
+          }
+        }
+      }
+    },
     "1 more tab" : {
       "localizations" : {
         "ja" : {
@@ -180,6 +240,26 @@
     },
     "100%" : {
       "shouldTranslate" : false
+    },
+    "16 bits per channel" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "16 bit/チャンネル"
+          }
+        }
+      }
+    },
+    "16-bit layer: keeps 16 bits a channel" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "16 bit レイヤー: 1 チャンネルあたり 16 bit を保持する"
+          }
+        }
+      }
     },
     "16:9" : {
       "extractionState" : "manual",
@@ -242,6 +322,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "バージョン 1 より少し強めです。下のスライダーは現在の仕上がりにはまだ遠く及びません。"
+          }
+        }
+      }
+    },
+    "A new version of %@ is available!" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ の新しいバージョンがあります"
           }
         }
       }
@@ -442,6 +532,16 @@
         }
       }
     },
+    "Add layer effect" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤー効果を追加"
+          }
+        }
+      }
+    },
     "Add layer mask" : {
       "localizations" : {
         "ja" : {
@@ -560,6 +660,16 @@
         }
       }
     },
+    "Adjustments" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調整"
+          }
+        }
+      }
+    },
     "Adjusts the bright parts of the picture. Hold Option to see clipped highlights." : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -592,6 +702,88 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "詳細"
+          }
+        }
+      }
+    },
+    "Align" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整列"
+          }
+        }
+      }
+    },
+    "Align Bottom Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下端を揃える"
+          }
+        }
+      }
+    },
+    "Align Horizontal Centers" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水平方向の中央を揃える"
+          }
+        }
+      }
+    },
+    "Align Left Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左端を揃える"
+          }
+        }
+      }
+    },
+    "Align Right Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右端を揃える"
+          }
+        }
+      }
+    },
+    "Align Top Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上端を揃える"
+          }
+        }
+      }
+    },
+    "Align Vertical Centers" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "垂直方向の中央を揃える"
           }
         }
       }
@@ -662,6 +854,18 @@
         }
       }
     },
+    "Alpha" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アルファ"
+          }
+        }
+      }
+    },
     "Amount" : {
       "localizations" : {
         "ja" : {
@@ -702,6 +906,18 @@
         }
       }
     },
+    "Anamorphic Flare" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アナモルフィックフレア"
+          }
+        }
+      }
+    },
     "Anchor" : {
       "localizations" : {
         "ja" : {
@@ -718,6 +934,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "角度"
+          }
+        }
+      }
+    },
+    "Animated GIF: select it to show its frames under the canvas" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーション GIF: 選択するとカンバスの下にフレームを表示する"
           }
         }
       }
@@ -862,6 +1088,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自動は平均色のバランスを取ります。カスタムは色温度と色かぶり補正に従います。"
+          }
+        }
+      }
+    },
+    "Automatically download and install updates in the future" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今後はアップデートを自動的にダウンロードしてインストールする"
           }
         }
       }
@@ -1020,6 +1256,18 @@
         }
       }
     },
+    "Black canvas" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黒いカンバス"
+          }
+        }
+      }
+    },
     "Black · Hide" : {
       "localizations" : {
         "ja" : {
@@ -1166,6 +1414,28 @@
         }
       }
     },
+    "Blur only the colors, keeping the layer's outline and transparency as they are" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーの輪郭と透明部分はそのままに、色だけをぼかす"
+          }
+        }
+      }
+    },
+    "Bokeh" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボケ"
+          }
+        }
+      }
+    },
     "Boost" : {
       "localizations" : {
         "ja" : {
@@ -1176,12 +1446,34 @@
         }
       }
     },
+    "Both Ways" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "両側"
+          }
+        }
+      }
+    },
     "Bottom" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下"
+          }
+        }
+      }
+    },
+    "Bottom Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下端"
           }
         }
       }
@@ -1228,6 +1520,16 @@
         }
       }
     },
+    "Break the lines into beads where the picture is darker than this, blending into solid lines where it's brighter" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像がこれより暗い部分ではラインを粒に分け、明るい部分では途切れないラインへつなげる"
+          }
+        }
+      }
+    },
     "Break the lines into glowing beads" : {
       "localizations" : {
         "ja" : {
@@ -1262,12 +1564,32 @@
         }
       }
     },
+    "Brighter than white kept · Transparency kept" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "白より明るい光を保持 · 透明部分を保持"
+          }
+        }
+      }
+    },
     "Brightness added by this wheel." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "このホイールで加える明るさです。"
+          }
+        }
+      }
+    },
+    "Brings back detail in bright areas the camera partly clipped" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラが部分的に白飛びさせた明るい部分の細部を取り戻す"
           }
         }
       }
@@ -1316,6 +1638,61 @@
         }
       }
     },
+    "CMYK" : {
+      "shouldTranslate" : false
+    },
+    "CMYK Gamut Warning" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMYK 色域外警告"
+          }
+        }
+      }
+    },
+    "CMYK Proof" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMYK 校正"
+          }
+        }
+      }
+    },
+    "CMYK Proof Colors" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMYK 色の校正"
+          }
+        }
+      }
+    },
+    "CMYK writes a printer's inks through the profile in View › CMYK › Profile" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMYK は、表示 › CMYK › プロファイル で選んだプロファイルを通して印刷インキの値を書き出す"
+          }
+        }
+      }
+    },
+    "CMYK – %@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMYK – %@"
+          }
+        }
+      }
+    },
     "Calibration" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -1336,6 +1713,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camera Raw フィルター"
+          }
+        }
+      }
+    },
+    "Camera Raw…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera Raw…"
           }
         }
       }
@@ -1496,6 +1883,28 @@
         }
       }
     },
+    "Cap" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "線端"
+          }
+        }
+      }
+    },
+    "Cat's Eye" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャッツアイ"
+          }
+        }
+      }
+    },
     "Cell Size" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -1530,12 +1939,36 @@
         }
       }
     },
+    "Change GIF Delays" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GIF のフレーム間隔を変更"
+          }
+        }
+      }
+    },
     "Channel" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "チャンネル"
+          }
+        }
+      }
+    },
+    "Channel Pack" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チャンネルパック"
           }
         }
       }
@@ -1556,6 +1989,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "アップデートを確認…"
+          }
+        }
+      }
+    },
+    "Choose a JPEG, PNG, GIF, HEIC, HEIF, TIFF, WebP, PDF, or Photoshop (PSD) file." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JPEG、PNG、GIF、HEIC、HEIF、TIFF、WebP、PDF、Photoshop (PSD) ファイルを選んでください。"
           }
         }
       }
@@ -1620,6 +2063,26 @@
         }
       }
     },
+    "Choose the lines' color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラインの色を選ぶ"
+          }
+        }
+      }
+    },
+    "Choose the screen's color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面の色を選ぶ"
+          }
+        }
+      }
+    },
     "Choose the vignette color" : {
       "localizations" : {
         "ja" : {
@@ -1674,6 +2137,16 @@
         }
       }
     },
+    "Clear All" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて解除"
+          }
+        }
+      }
+    },
     "Clear Guides" : {
       "localizations" : {
         "ja" : {
@@ -1700,6 +2173,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選択範囲のピクセルを消去"
+          }
+        }
+      }
+    },
+    "Clear search" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索を消去"
           }
         }
       }
@@ -1746,6 +2229,16 @@
         }
       }
     },
+    "Click a shortcut, then press its new key combination, or ⊗ to remove it. Changes apply when you save." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ショートカットをクリックして新しいキーの組み合わせを押すか、⊗ で削除します。変更は保存したときに適用されます。"
+          }
+        }
+      }
+    },
     "Click a shortcut, then press its new key combination. Changes apply when you save." : {
       "localizations" : {
         "ja" : {
@@ -1766,12 +2259,42 @@
         }
       }
     },
+    "Click and drag two points on canvas" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバス上で 2 点をクリックしてドラッグ"
+          }
+        }
+      }
+    },
     "Click corners · Click start, double-click or Enter to close · Delete removes corner · Escape cancel" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "角をクリック · 始点のクリック、ダブルクリック、または Enter で閉じる · Delete で角を削除 · Escape でキャンセル"
+          }
+        }
+      }
+    },
+    "Click or drag on the canvas to move the center" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバスをクリックまたはドラッグして中心を動かす"
+          }
+        }
+      }
+    },
+    "Click or drag to move the view" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クリックかドラッグで表示位置を動かす"
           }
         }
       }
@@ -1996,6 +2519,26 @@
         }
       }
     },
+    "Close search" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索を閉じる"
+          }
+        }
+      }
+    },
+    "Close the search" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索を閉じる"
+          }
+        }
+      }
+    },
     "Close to the current process, with slightly softer primary and shadow shifts." : {
       "localizations" : {
         "ja" : {
@@ -2138,6 +2681,16 @@
         }
       }
     },
+    "Color Picker (Dark Color)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラーピッカー（暗い色）"
+          }
+        }
+      }
+    },
     "Color Picker (Dither Dark Color)" : {
       "localizations" : {
         "ja" : {
@@ -2184,6 +2737,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カラーピッカー（グラデーションマップのシャドウ）"
+          }
+        }
+      }
+    },
+    "Color Picker (Light Color)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラーピッカー（明るい色）"
           }
         }
       }
@@ -2478,6 +3041,36 @@
         }
       }
     },
+    "Convert to 16-Bit" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "16 bit に変換"
+          }
+        }
+      }
+    },
+    "Convert to 8-Bit" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "8 bit に変換"
+          }
+        }
+      }
+    },
+    "Copies to one side of the picture, or out to both" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーを画像の片側に出すか、両側に出すか"
+          }
+        }
+      }
+    },
     "Copy" : {
       "localizations" : {
         "ja" : {
@@ -2716,6 +3309,16 @@
         }
       }
     },
+    "Create a canvas or import a file." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバスを作成するか、ファイルを読み込んでください。"
+          }
+        }
+      }
+    },
     "Create a canvas or import an image." : {
       "localizations" : {
         "ja" : {
@@ -2860,6 +3463,26 @@
         }
       }
     },
+    "Custom ratio" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタム比率"
+          }
+        }
+      }
+    },
+    "Custom…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタム…"
+          }
+        }
+      }
+    },
     "Cut" : {
       "localizations" : {
         "ja" : {
@@ -2962,12 +3585,34 @@
         }
       }
     },
+    "Darker or lighter before the lines are drawn" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラインを描く前に暗く、または明るくする"
+          }
+        }
+      }
+    },
     "Darks" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ダーク"
+          }
+        }
+      }
+    },
+    "Dashed" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "破線"
           }
         }
       }
@@ -3114,6 +3759,40 @@
         }
       }
     },
+    "Delete Frame" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレームを削除"
+          }
+        }
+      }
+    },
+    "Delete GIF Frame" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GIF フレームを削除"
+          }
+        }
+      }
+    },
+    "Delete GIF Frames" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GIF フレームを削除"
+          }
+        }
+      }
+    },
     "Delete Guide" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -3240,6 +3919,16 @@
         }
       }
     },
+    "Depth" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビット深度"
+          }
+        }
+      }
+    },
     "Deselect" : {
       "localizations" : {
         "ja" : {
@@ -3310,6 +3999,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このカラー範囲の外側を暗く表示します。OK を押すと元に戻ります。"
+          }
+        }
+      }
+    },
+    "Direction" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "方向"
           }
         }
       }
@@ -3388,6 +4087,64 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ゆがみ"
+          }
+        }
+      }
+    },
+    "Distribute" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分布"
+          }
+        }
+      }
+    },
+    "Distribute Horizontal Centers" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水平方向の中央で分布"
+          }
+        }
+      }
+    },
+    "Distribute Horizontal Spacing" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水平方向の間隔で分布"
+          }
+        }
+      }
+    },
+    "Distribute Vertical Centers" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "垂直方向の中央で分布"
+          }
+        }
+      }
+    },
+    "Distribute Vertical Spacing" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "垂直方向の間隔で分布"
           }
         }
       }
@@ -3474,6 +4231,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ドット"
+          }
+        }
+      }
+    },
+    "Dotted" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点線"
           }
         }
       }
@@ -3728,6 +4497,16 @@
         }
       }
     },
+    "Drag up or down to lift or lower those tones. Drag a divider along the bottom to change which tones each region covers." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上下にドラッグしてその階調を持ち上げる、または下げる。下端の区切りをドラッグすると各領域が受け持つ階調を変えられる。"
+          }
+        }
+      }
+    },
     "Draw Guides" : {
       "localizations" : {
         "ja" : {
@@ -3744,6 +4523,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大きなピクセルを塗りつぶした正方形で描くか、ドットマトリクス画面のような丸いドットで描きます"
+          }
+        }
+      }
+    },
+    "Draw no line where the picture is darker than this, leaving the screen dark" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像がこれより暗い部分にはラインを描かず、画面を暗いままにする"
           }
         }
       }
@@ -3810,6 +4599,28 @@
         }
       }
     },
+    "Duplicate Frame" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレームを複製"
+          }
+        }
+      }
+    },
+    "Duplicate GIF Frame" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GIF フレームを複製"
+          }
+        }
+      }
+    },
     "Duplicate Layer" : {
       "localizations" : {
         "ja" : {
@@ -3840,6 +4651,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ピクセルを複製"
+          }
+        }
+      }
+    },
+    "Each channel from a layer, read as grayscale · PNG" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各チャンネルをレイヤーからグレースケールとして読む · PNG"
           }
         }
       }
@@ -3916,6 +4737,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "白黒調整レイヤーを編集"
+          }
+        }
+      }
+    },
+    "Edit Bloom / Glow Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブルーム / グロー調整レイヤーを編集"
           }
         }
       }
@@ -4064,6 +4897,18 @@
         }
       }
     },
+    "Edit Lens Effects Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レンズ効果調整レイヤーを編集"
+          }
+        }
+      }
+    },
     "Edit Levels Adjustment" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -4100,6 +4945,42 @@
         }
       }
     },
+    "Edit Progressive Blur Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "段階的ぼかし調整レイヤーを編集"
+          }
+        }
+      }
+    },
+    "Edit RGB Split Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RGB ずらし調整レイヤーを編集"
+          }
+        }
+      }
+    },
+    "Edit Sharpen Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シャープ調整レイヤーを編集"
+          }
+        }
+      }
+    },
     "Edit Stroke" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -4118,6 +4999,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "テキストを編集"
+          }
+        }
+      }
+    },
+    "Edit Tonal Contrast Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トーンコントラスト調整レイヤーを編集"
+          }
+        }
+      }
+    },
+    "Edit Vignette Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "周辺光量補正調整レイヤーを編集"
           }
         }
       }
@@ -4148,6 +5053,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "編集可能なテキストレイヤー"
+          }
+        }
+      }
+    },
+    "Effect" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "効果"
           }
         }
       }
@@ -4242,12 +5157,52 @@
         }
       }
     },
+    "Enabled masks apply here, as on the canvas. Drag or scroll to move around; double-click switches between Fit and 100%." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有効なマスクはカンバスと同じように適用される。ドラッグかスクロールで移動し、ダブルクリックで全体表示と 100% を切り替える。"
+          }
+        }
+      }
+    },
+    "Encoding frame %lld of %lld…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレームをエンコード中 (%lld / %lld)…"
+          }
+        }
+      }
+    },
     "End of the hue range, in degrees." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "色相範囲の終点（度）。"
+          }
+        }
+      }
+    },
+    "Enter a positive ratio within the document size limits." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドキュメントサイズの上限内に収まる正の比率を入力してください。"
+          }
+        }
+      }
+    },
+    "Enter a size up to %@ pixels at this DPI." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この DPI では %@ ピクセルまでのサイズを入力してください。"
           }
         }
       }
@@ -4346,6 +5301,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拡張…"
+          }
+        }
+      }
+    },
+    "Export %@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ を書き出す"
+          }
+        }
+      }
+    },
+    "Export As" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出し形式"
+          }
+        }
+      }
+    },
+    "Export As…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出し形式…"
+          }
+        }
+      }
+    },
+    "Export Background" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出しの背景"
           }
         }
       }
@@ -4548,6 +5545,16 @@
         }
       }
     },
+    "Fill color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "塗りの色"
+          }
+        }
+      }
+    },
     "Fill the selection using surrounding pixels from this layer." : {
       "localizations" : {
         "ja" : {
@@ -4608,6 +5615,76 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "フィルター"
+          }
+        }
+      }
+    },
+    "Filter the layer list" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーリストを絞り込む"
+          }
+        }
+      }
+    },
+    "Filter to adjustment layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調整レイヤーに絞り込む"
+          }
+        }
+      }
+    },
+    "Filter to folder layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダに絞り込む"
+          }
+        }
+      }
+    },
+    "Filter to image layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像レイヤーに絞り込む"
+          }
+        }
+      }
+    },
+    "Filter to shape layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シェイプレイヤーに絞り込む"
+          }
+        }
+      }
+    },
+    "Filter to text layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキストレイヤーに絞り込む"
+          }
+        }
+      }
+    },
+    "Filter to the selected layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択中のレイヤーに絞り込む"
           }
         }
       }
@@ -4758,6 +5835,18 @@
         }
       }
     },
+    "Floating Selection" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浮動選択範囲"
+          }
+        }
+      }
+    },
     "Floyd–Steinberg" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -4786,6 +5875,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "フォルダーの描画モード “%@” はサポートされていません。フォルダーは通過として扱われます。"
+          }
+        }
+      }
+    },
+    "Folders" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダ"
           }
         }
       }
@@ -4856,6 +5955,58 @@
         }
       }
     },
+    "Forever" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無限"
+          }
+        }
+      }
+    },
+    "Format" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォーマット"
+          }
+        }
+      }
+    },
+    "Frame %lld" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレーム %lld"
+          }
+        }
+      }
+    },
+    "Frame delay" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレームごとの間隔"
+          }
+        }
+      }
+    },
+    "Frames" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレーム"
+          }
+        }
+      }
+    },
     "Free" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -4900,6 +6051,16 @@
         }
       }
     },
+    "GIF keeps fully transparent or opaque pixels; soft edges use a 50% threshold." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GIF は完全な透明か不透明のピクセルだけを保持する。柔らかい縁は 50% をしきい値にする。"
+          }
+        }
+      }
+    },
     "Gamma" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -4908,6 +6069,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ガンマ"
+          }
+        }
+      }
+    },
+    "Gamut Warning" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色域外警告"
           }
         }
       }
@@ -5214,12 +6385,148 @@
         }
       }
     },
+    "HDR layer: keeps light brighter than white, shown as white" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HDR レイヤー: 白より明るい光を保持する (表示は白)"
+          }
+        }
+      }
+    },
+    "Height in pixels; the width follows, keeping the proportions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高さ (ピクセル)。縦横比を保って幅も変わる"
+          }
+        }
+      }
+    },
+    "Hexagon" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "六角形"
+          }
+        }
+      }
+    },
+    "Hide the gamut warning" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色域外警告を隠す"
+          }
+        }
+      }
+    },
+    "Highlight Recovery" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハイライトの復元"
+          }
+        }
+      }
+    },
+    "Horizontal Centers" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水平方向の中央"
+          }
+        }
+      }
+    },
+    "Horizontal Spacing" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水平方向の間隔"
+          }
+        }
+      }
+    },
+    "How bright a light has to be to flare; near 100, only the biggest, brightest spots" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレアが出る明るさのしきい値。100 近くでは最も大きく明るい光だけになる"
+          }
+        }
+      }
+    },
+    "How bright a light has to be to sparkle; near 100, only the biggest, brightest spots" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光芒が出る明るさのしきい値。100 近くでは最も大きく明るい光だけになる"
+          }
+        }
+      }
+    },
+    "How bright the lines are where the picture is black, so they show even over black" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像が黒い部分でのラインの明るさ (黒の上でもラインが見えるように)"
+          }
+        }
+      }
+    },
+    "How brightly lights open into discs" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光が玉ボケになるときの明るさ"
+          }
+        }
+      }
+    },
+    "How far apart the copies are" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー同士の間隔"
+          }
+        }
+      }
+    },
     "How far apart the screen's lines are" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "画面のライン同士の間隔"
+          }
+        }
+      }
+    },
+    "How far out of focus: the size of each disc" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ピンぼけの度合い (玉ボケ 1 つの大きさ)"
           }
         }
       }
@@ -5714,12 +7021,132 @@
         }
       }
     },
+    "How far the brightness is smoothed before it displaces the lines, from sharp ridges to rounded hills" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラインを変位させる前に明るさをどれだけ滑らかにするか (鋭い稜線から丸い丘まで)"
+          }
+        }
+      }
+    },
+    "How far the colors spread apart, red one way and blue the other" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色がずれる距離 (赤と青が逆方向に広がる)"
+          }
+        }
+      }
+    },
+    "How far the lens's coatings turn each streak blue along its length; none keeps the light's own color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レンズのコーティングで筋が先へ行くほど青くなる度合い。0 では光の元の色のまま"
+          }
+        }
+      }
+    },
+    "How far the light spreads" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光が広がる範囲"
+          }
+        }
+      }
+    },
+    "How far the spikes reach" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光芒の長さ"
+          }
+        }
+      }
+    },
+    "How far the streaks reach across the picture" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筋が画像のどこまで伸びるか"
+          }
+        }
+      }
+    },
+    "How fine the detail it sharpens: small for crisp texture, larger for a punchier look" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シャープにする細部の大きさ。小さいと質感がくっきりし、大きいと力強い印象になる"
+          }
+        }
+      }
+    },
+    "How long each frame shows" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各フレームの表示時間"
+          }
+        }
+      }
+    },
+    "How many spikes each light has, as the lens's aperture blades make them" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 つの光から出る光芒の数 (レンズの絞り羽根が作るもの)"
+          }
+        }
+      }
+    },
+    "How many times the picture echoes, each fainter" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像が繰り返される回数 (後のものほど薄くなる)"
+          }
+        }
+      }
+    },
+    "How much light scatters: a soft halo around bright areas, and gently lifted shadows" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光の拡散量。明るい部分の周りに柔らかいにじみが出て、シャドウがわずかに持ち上がる"
+          }
+        }
+      }
+    },
     "How much of each pixel's error spreads to its neighbors. Less gives flatter areas" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "各ピクセルの誤差を周囲にどれだけ拡散するか。少ないほど平坦な領域になります"
+          }
+        }
+      }
+    },
+    "How much of the gap a bright line fills; dimmer parts draw it thinner" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "明るいラインが隙間をどれだけ埋めるか。暗い部分では細く描かれる"
           }
         }
       }
@@ -5756,6 +7183,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "RGB カーブが色の強さも変える度合いです。0 にすると明るさのみを変えます。"
+          }
+        }
+      }
+    },
+    "How strongly edges and fine detail are brought out" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輪郭と細部をどれだけ強く際立たせるか"
+          }
+        }
+      }
+    },
+    "How the line's ends, and each of its dashes and dots, are finished" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "線の端 (破線や点の 1 つずつも含む) の形"
           }
         }
       }
@@ -5900,6 +7347,16 @@
         }
       }
     },
+    "Images" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像"
+          }
+        }
+      }
+    },
     "Import" : {
       "localizations" : {
         "ja" : {
@@ -5956,6 +7413,16 @@
         }
       }
     },
+    "Import a file or add a blank layer." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルを読み込むか、空のレイヤーを追加してください。"
+          }
+        }
+      }
+    },
     "Import an image or add a blank layer." : {
       "localizations" : {
         "ja" : {
@@ -5986,12 +7453,42 @@
         }
       }
     },
+    "Import, then open the Camera Raw Filter" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込んでから Camera Raw フィルターを開く"
+          }
+        }
+      }
+    },
     "Importing images…" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "画像を読み込み中…"
+          }
+        }
+      }
+    },
+    "Importing…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込み中…"
+          }
+        }
+      }
+    },
+    "Import…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込む…"
           }
         }
       }
@@ -6194,6 +7691,26 @@
         }
       }
     },
+    "Install Update" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートをインストール"
+          }
+        }
+      }
+    },
+    "Install and Relaunch" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インストールして再起動"
+          }
+        }
+      }
+    },
     "Installing Compositor %@ would replace this local build. Merge the new version into the source and build it again." : {
       "localizations" : {
         "ja" : {
@@ -6278,12 +7795,32 @@
         }
       }
     },
+    "Keep the 16-bit layers' full precision, in a file about twice the size" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "16 bit レイヤーの精度をそのまま保つ (ファイルサイズは約 2 倍)"
+          }
+        }
+      }
+    },
     "Keep the source moving with the brush between strokes; off starts every stroke at the source point" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ストローク間もソースをブラシと一緒に移動します。オフにすると毎回ソースポイントから描き始めます"
+          }
+        }
+      }
+    },
+    "Keep transparent areas" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明部分を保持する"
           }
         }
       }
@@ -6368,6 +7905,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "なげなわ / モード切り替え"
+          }
+        }
+      }
+    },
+    "Last Filter" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回のフィルター"
+          }
+        }
+      }
+    },
+    "Last Filter: %@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回のフィルター: %@"
           }
         }
       }
@@ -6508,6 +8065,18 @@
         }
       }
     },
+    "Left Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左端"
+          }
+        }
+      }
+    },
     "Lens Correction" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -6516,6 +8085,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レンズ補正"
+          }
+        }
+      }
+    },
+    "Lens Effects" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レンズ効果"
           }
         }
       }
@@ -6536,6 +8117,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レベル補正…"
+          }
+        }
+      }
+    },
+    "Lift the lines where the picture is bright, or lower them when negative, so they swell into its shapes" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像の明るい部分でラインを持ち上げ (負の値では下げ)、形に沿って膨らませる"
           }
         }
       }
@@ -6638,6 +8229,16 @@
         }
       }
     },
+    "Light gathered at each disc's rim, as some lenses draw it" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玉ボケの縁に光を集める (一部のレンズの描写)"
+          }
+        }
+      }
+    },
     "Light on Dark" : {
       "localizations" : {
         "ja" : {
@@ -6736,6 +8337,16 @@
         }
       }
     },
+    "Line layers up with each other, the selection, or the canvas when one is selected" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤー同士、または選択範囲かカンバス (1 つだけ選択しているとき) に揃える"
+          }
+        }
+      }
+    },
     "Linear" : {
       "localizations" : {
         "ja" : {
@@ -6782,6 +8393,16 @@
         }
       }
     },
+    "Linear blurs along the line; Radial keeps the start sharp and blurs outwards" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "線形はラインに沿ってぼかし、放射状は始点をシャープなまま外側へぼかす"
+          }
+        }
+      }
+    },
     "Linear histogram with automatic vertical scaling. Tall spikes may extend beyond the graph; all tones from 0 to 255 remain included." : {
       "localizations" : {
         "ja" : {
@@ -6798,6 +8419,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "線形は線に沿って、円形は開始点から放射状に広がります"
+          }
+        }
+      }
+    },
+    "Linear splits along one direction; Radial splits outwards from a center, sharp there" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "線形は一方向にずらし、放射状は中心から外側へずらす (中心はシャープなまま)"
           }
         }
       }
@@ -6910,6 +8541,16 @@
         }
       }
     },
+    "Load Profile…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロファイルを読み込む…"
+          }
+        }
+      }
+    },
     "Loading histogram…" : {
       "localizations" : {
         "ja" : {
@@ -6956,6 +8597,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "元の縦横比を固定"
+          }
+        }
+      }
+    },
+    "Long Dash" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長い破線"
+          }
+        }
+      }
+    },
+    "Loop" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ループ"
           }
         }
       }
@@ -7458,12 +9121,36 @@
         }
       }
     },
+    "Millimeters" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミリメートル"
+          }
+        }
+      }
+    },
     "Missing source" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ソースが見つかりません"
+          }
+        }
+      }
+    },
+    "Mist" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミスト"
           }
         }
       }
@@ -7494,6 +9181,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "グレースケールノイズ"
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他"
+          }
+        }
+      }
+    },
+    "More formats" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他のフォーマット"
           }
         }
       }
@@ -7738,6 +9445,16 @@
         }
       }
     },
+    "Move the red and blue apart, for colored fringes on the lines" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "赤と青をずらし、ラインに色のにじみを付ける"
+          }
+        }
+      }
+    },
     "Moves the picture left or right." : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -7782,6 +9499,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "乗算"
+          }
+        }
+      }
+    },
+    "Navigator" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ナビゲーター"
+          }
+        }
+      }
+    },
+    "Navigator (300% and above)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ナビゲーター (300% 以上)"
           }
         }
       }
@@ -7848,6 +9585,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新規レイヤー"
+          }
+        }
+      }
+    },
+    "New Bloom / Glow Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規ブルーム / グロー調整レイヤー"
           }
         }
       }
@@ -7994,6 +9743,18 @@
         }
       }
     },
+    "New Lens Effects Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規レンズ効果調整レイヤー"
+          }
+        }
+      }
+    },
     "New Levels Adjustment" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -8018,6 +9779,42 @@
         }
       }
     },
+    "New Progressive Blur Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規段階的ぼかし調整レイヤー"
+          }
+        }
+      }
+    },
+    "New RGB Split Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規RGB ずらし調整レイヤー"
+          }
+        }
+      }
+    },
+    "New Sharpen Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規シャープ調整レイヤー"
+          }
+        }
+      }
+    },
     "New Text Layer" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -8026,6 +9823,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新規テキストレイヤー"
+          }
+        }
+      }
+    },
+    "New Tonal Contrast Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規トーンコントラスト調整レイヤー"
+          }
+        }
+      }
+    },
+    "New Vignette Adjustment" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規周辺光量補正調整レイヤー"
           }
         }
       }
@@ -8132,6 +9953,16 @@
         }
       }
     },
+    "No commands match" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一致するコマンドはありません"
+          }
+        }
+      }
+    },
     "No content remained after trimming." : {
       "localizations" : {
         "ja" : {
@@ -8148,6 +9979,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このレイヤーで前景の被写体を検出できませんでした。被写体がよりはっきりした画像で試してください。"
+          }
+        }
+      }
+    },
+    "No layers match the filter." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絞り込みに一致するレイヤーはありません。"
           }
         }
       }
@@ -8200,6 +10041,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "通常"
+          }
+        }
+      }
+    },
+    "Not available for this camera" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このカメラでは使えない"
           }
         }
       }
@@ -8418,12 +10269,42 @@
         }
       }
     },
+    "Once" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 回"
+          }
+        }
+      }
+    },
+    "One Way" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "片側"
+          }
+        }
+      }
+    },
     "Only 8-bit RGB Photoshop files can be imported." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "読み込めるのは 8 bit RGB の Photoshop ファイルのみです。"
+          }
+        }
+      }
+    },
+    "Only 8-bit RGB and CMYK Photoshop files can be imported." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込めるのは 8 bit の RGB と CMYK の Photoshop ファイルだけです。"
           }
         }
       }
@@ -8762,6 +10643,16 @@
         }
       }
     },
+    "Other formats: TIFF, PDF and GIF%@, and Channel Pack for game textures" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他のフォーマット: TIFF、PDF、GIF%@、ゲームテクスチャ用のチャンネルパック"
+          }
+        }
+      }
+    },
     "Outer Glow" : {
       "localizations" : {
         "ja" : {
@@ -8806,6 +10697,18 @@
         }
       }
     },
+    "Oval" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "楕円"
+          }
+        }
+      }
+    },
     "Overlay" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -8814,6 +10717,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "オーバーレイ"
+          }
+        }
+      }
+    },
+    "Page" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ページ"
           }
         }
       }
@@ -8900,6 +10813,56 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ペースト"
+          }
+        }
+      }
+    },
+    "Pause" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一時停止"
+          }
+        }
+      }
+    },
+    "Pause animation preview" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーションのプレビューを一時停止"
+          }
+        }
+      }
+    },
+    "Pause the animation preview." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーションのプレビューを一時停止する。"
+          }
+        }
+      }
+    },
+    "Pen pressure sets the opacity: a light touch paints fainter, up to the brush’s Opacity" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筆圧で不透明度を変える (軽く触れると薄くなり、上限はブラシの不透明度)"
+          }
+        }
+      }
+    },
+    "Pen pressure sets the size: a light touch paints a thinner line" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筆圧でサイズを変える (軽く触れると細い線になる)"
           }
         }
       }
@@ -8994,6 +10957,36 @@
         }
       }
     },
+    "Play" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再生"
+          }
+        }
+      }
+    },
+    "Play animation preview" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーションのプレビューを再生"
+          }
+        }
+      }
+    },
+    "Play the animation preview." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーションのプレビューを再生する。"
+          }
+        }
+      }
+    },
     "Point" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -9024,6 +11017,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "指定したピクセル"
+          }
+        }
+      }
+    },
+    "Points" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光芒の数"
           }
         }
       }
@@ -9088,6 +11091,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "輝度を保持"
+          }
+        }
+      }
+    },
+    "Preserve Transparency" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明部分を保持"
           }
         }
       }
@@ -9206,6 +11219,26 @@
         }
       }
     },
+    "Pressure for opacity" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筆圧で不透明度"
+          }
+        }
+      }
+    },
+    "Pressure for size" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筆圧でサイズ"
+          }
+        }
+      }
+    },
     "Preview" : {
       "localizations" : {
         "ja" : {
@@ -9228,12 +11261,46 @@
         }
       }
     },
+    "Prism" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プリズム"
+          }
+        }
+      }
+    },
     "Process" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "プロセス"
+          }
+        }
+      }
+    },
+    "Profile" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロファイル"
+          }
+        }
+      }
+    },
+    "Progressive Blur" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "段階的ぼかし"
           }
         }
       }
@@ -9254,6 +11321,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "投影"
+          }
+        }
+      }
+    },
+    "Proof Colors" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色の校正"
           }
         }
       }
@@ -9372,6 +11449,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "RGB"
+          }
+        }
+      }
+    },
+    "RGB Split" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RGB ずらし"
           }
         }
       }
@@ -9626,6 +11715,16 @@
         }
       }
     },
+    "Remind Me Later" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あとで通知"
+          }
+        }
+      }
+    },
     "Remove Background" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -9774,6 +11873,26 @@
         }
       }
     },
+    "Remove this shortcut" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このショートカットを削除"
+          }
+        }
+      }
+    },
+    "Removes the lens's distortion and vignetting" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レンズの歪みと周辺減光を取り除く"
+          }
+        }
+      }
+    },
     "Rename Layer" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -9860,6 +11979,26 @@
         }
       }
     },
+    "Reset %@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@をリセット"
+          }
+        }
+      }
+    },
+    "Reset %@ to its defaults" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@を初期値に戻す"
+          }
+        }
+      }
+    },
     "Reset colors" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -9908,6 +12047,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "解像度"
+          }
+        }
+      }
+    },
+    "Resolution: 72 for screens, 300 for print. Click to switch." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解像度: 画面用は 72、印刷用は 300。クリックで切り替え。"
           }
         }
       }
@@ -9982,12 +12131,44 @@
         }
       }
     },
+    "Right Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右端"
+          }
+        }
+      }
+    },
     "Rotate" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "回転"
+          }
+        }
+      }
+    },
+    "Rotate Canvas 90° Clockwise" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバスを 90° 回転 (時計回り)"
+          }
+        }
+      }
+    },
+    "Rotate Canvas 90° Counterclockwise" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバスを 90° 回転 (反時計回り)"
           }
         }
       }
@@ -10010,6 +12191,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "粗さ"
+          }
+        }
+      }
+    },
+    "Round" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "円形"
           }
         }
       }
@@ -10040,6 +12233,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "定規"
+          }
+        }
+      }
+    },
+    "Same for all" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて同じ"
           }
         }
       }
@@ -10206,12 +12411,34 @@
         }
       }
     },
+    "Scale the export: the document stays as it is" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出しを拡大・縮小する (ドキュメントはそのまま)"
+          }
+        }
+      }
+    },
     "Scale width and height together, about the center" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "中心を基準に幅と高さを一緒に拡大・縮小します"
+          }
+        }
+      }
+    },
+    "Scanlines" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "走査線"
           }
         }
       }
@@ -10234,6 +12461,66 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "スクリーン"
+          }
+        }
+      }
+    },
+    "Search Commands…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コマンドを検索…"
+          }
+        }
+      }
+    },
+    "Search Fonts" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォントを検索"
+          }
+        }
+      }
+    },
+    "Search Layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを検索"
+          }
+        }
+      }
+    },
+    "Search commands and tools" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コマンドとツールを検索"
+          }
+        }
+      }
+    },
+    "Search layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを検索"
+          }
+        }
+      }
+    },
+    "Search layers by name" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを名前で検索"
           }
         }
       }
@@ -10434,6 +12721,16 @@
         }
       }
     },
+    "Set a radius above 0 to use smooth corners." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スムーズな角を使うには半径を 0 より大きくする。"
+          }
+        }
+      }
+    },
     "Sets how far the glow reaches. Has no effect until Glow is raised." : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -10544,12 +12841,34 @@
         }
       }
     },
+    "Shapes" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シェイプ"
+          }
+        }
+      }
+    },
     "Shapes fill with the foreground color; click to change it" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "シェイプは描画色で塗りつぶされます。クリックして変更します"
+          }
+        }
+      }
+    },
+    "Sharpen" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シャープ"
           }
         }
       }
@@ -10912,6 +13231,26 @@
         }
       }
     },
+    "Show only some kinds of layer" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "特定の種類のレイヤーだけを表示"
+          }
+        }
+      }
+    },
+    "Show the document's own colors again" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドキュメント本来の色に戻す"
+          }
+        }
+      }
+    },
     "Show the image again (or Option-click the mask thumbnail)" : {
       "localizations" : {
         "ja" : {
@@ -10962,6 +13301,16 @@
         }
       }
     },
+    "Skip This Version" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このバージョンをスキップ"
+          }
+        }
+      }
+    },
     "Smear" : {
       "localizations" : {
         "ja" : {
@@ -10982,6 +13331,16 @@
         }
       }
     },
+    "Smear the split into streaks along its direction" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ずれをその方向に沿った筋状に引き伸ばす"
+          }
+        }
+      }
+    },
     "Smooth" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -10990,6 +13349,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "滑らか"
+          }
+        }
+      }
+    },
+    "Smooth Corners" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スムーズな角"
           }
         }
       }
@@ -11048,6 +13417,16 @@
         }
       }
     },
+    "Smooths grain, at the cost of fine detail" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ノイズを滑らかにする (細部は失われる)"
+          }
+        }
+      }
+    },
     "Smudge" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -11102,6 +13481,16 @@
         }
       }
     },
+    "Soften the copies, more the farther they're pushed" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーをぼかす (遠くのものほど強く)"
+          }
+        }
+      }
+    },
     "Softens the edge of the vignette." : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -11114,12 +13503,76 @@
         }
       }
     },
+    "Solid" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実線"
+          }
+        }
+      }
+    },
+    "Solid, dashed or dotted; dashes grow with the line's width" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実線・破線・点線。破線は線の太さに合わせて長くなる"
+          }
+        }
+      }
+    },
+    "Some dropped items couldn’t be read. Drag JPEG, PNG, GIF, HEIC, HEIF, TIFF, WebP, PDF, or Photoshop (PSD) files from Finder." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドロップした項目の一部を読み込めませんでした。Finder から JPEG、PNG、GIF、HEIC、HEIF、TIFF、WebP、PDF、Photoshop (PSD) ファイルをドラッグしてください。"
+          }
+        }
+      }
+    },
     "Some dropped items couldn’t be read. Drag JPEG, PNG, HEIC, TIFF, or Photoshop (PSD) files from Finder." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ドロップした項目の一部を読み込めませんでした。Finder から JPEG、PNG、HEIC、TIFF、または Photoshop (PSD) ファイルをドラッグしてください。"
+          }
+        }
+      }
+    },
+    "Split Channels" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チャンネルを分割"
+          }
+        }
+      }
+    },
+    "Split the layer's original channels into four grayscale layers, Red, Green, Blue and Alpha, for Export As › Channel Pack. Color under fully transparent pixels can't be recovered" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーの元のチャンネルを、レッド・グリーン・ブルー・アルファの 4 つのグレースケールレイヤーに分割する (書き出し形式 › チャンネルパック用)。完全に透明なピクセルの下の色は復元できない"
+          }
+        }
+      }
+    },
+    "Split to Layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーに分割"
           }
         }
       }
@@ -11178,12 +13631,54 @@
         }
       }
     },
+    "Starburst" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光芒"
+          }
+        }
+      }
+    },
     "Start of the hue range, in degrees." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "色相範囲の始点（度）。"
+          }
+        }
+      }
+    },
+    "Start see-through, or with a white or black Background layer. Click to switch." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明のまま、または白か黒の背景レイヤーで始める。クリックで切り替え。"
+          }
+        }
+      }
+    },
+    "Stop marking colors the profile can't print" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロファイルで印刷できない色の表示をやめる"
+          }
+        }
+      }
+    },
+    "Stop proofing" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "校正をやめる"
           }
         }
       }
@@ -11378,6 +13873,16 @@
         }
       }
     },
+    "Swap From and To: blur the start and sharpen toward the end" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始と終了を入れ替え、始点をぼかして終点に向けてシャープにする"
+          }
+        }
+      }
+    },
     "Swap colors" : {
       "localizations" : {
         "ja" : {
@@ -11458,6 +13963,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一時的に手のひらツール（押し続ける）"
+          }
+        }
+      }
+    },
+    "Text" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキスト"
           }
         }
       }
@@ -11606,6 +14121,36 @@
         }
       }
     },
+    "The aperture's shape: round wide open, a hexagon of blades, an anamorphic oval, or a cat's eye toward the edges" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絞りの形。開放の円形、絞り羽根の六角形、アナモルフィックの楕円、周辺部で欠けるキャッツアイ"
+          }
+        }
+      }
+    },
+    "The blur where the line ends, and past it" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラインの終点とその先でのぼかし"
+          }
+        }
+      }
+    },
+    "The blur where the line starts" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラインの始点でのぼかし"
+          }
+        }
+      }
+    },
     "The brush trails the pointer on a string this long, so a shaky hand still draws a smooth line" : {
       "localizations" : {
         "ja" : {
@@ -11632,6 +14177,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "描画に使う文字（順不同）。各箇所には階調に最も近いインク量の文字が使われます"
+          }
+        }
+      }
+    },
+    "The copied GIFs exceed this project’s animation memory limit." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーした GIF がこのプロジェクトのアニメーション用メモリの上限を超えています。"
           }
         }
       }
@@ -11776,6 +14331,16 @@
         }
       }
     },
+    "This PDF is password-protected. Save an unlocked copy, then import that." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この PDF はパスワードで保護されています。保護を解除したコピーを保存してから、それを読み込んでください。"
+          }
+        }
+      }
+    },
     "This Photoshop file uses a format version Compositor can’t read." : {
       "localizations" : {
         "ja" : {
@@ -11816,6 +14381,16 @@
         }
       }
     },
+    "This animation has more than %@ frames, which exceeds the current timeline limit." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このアニメーションは %@ フレームを超えており、タイムラインの上限を超えています。"
+          }
+        }
+      }
+    },
     "This build doesn’t install updates" : {
       "localizations" : {
         "ja" : {
@@ -11832,6 +14407,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このクリッピングマスクのベースはサポートされていないため、クリッピングをスキップしました。"
+          }
+        }
+      }
+    },
+    "This file has no lens profile" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルにはレンズプロファイルがない"
           }
         }
       }
@@ -11886,6 +14471,16 @@
         }
       }
     },
+    "This project uses format version %lld. This app supports versions 1–%lld and 27." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このプロジェクトはフォーマットバージョン %lld を使用しています。このアプリが対応しているのはバージョン 1–%lld と 27 です。"
+          }
+        }
+      }
+    },
     "Three-Way" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -11908,6 +14503,18 @@
         }
       }
     },
+    "Threshold" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "しきい値"
+          }
+        }
+      }
+    },
     "Tint" : {
       "localizations" : {
         "ja" : {
@@ -11926,6 +14533,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "クリッピングマスクの切り替え"
+          }
+        }
+      }
+    },
+    "Toggle Fullscreen" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フルスクリーンの切り替え"
           }
         }
       }
@@ -12002,6 +14619,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上"
+          }
+        }
+      }
+    },
+    "Top Edges" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上端"
           }
         }
       }
@@ -12134,6 +14763,26 @@
         }
       }
     },
+    "Transparency" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明部分"
+          }
+        }
+      }
+    },
+    "Transparency kept · sRGB" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明部分を保持 · sRGB"
+          }
+        }
+      }
+    },
     "Transparent" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -12154,6 +14803,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "透明ピクセル"
+          }
+        }
+      }
+    },
+    "Transparent canvas" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明なカンバス"
           }
         }
       }
@@ -12302,6 +14963,16 @@
         }
       }
     },
+    "Units: pixels, inches, centimeters or millimeters. Click to switch." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "単位: ピクセル・インチ・センチメートル・ミリメートル。クリックで切り替え。"
+          }
+        }
+      }
+    },
     "Unlink Layer Mask" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -12374,6 +15045,16 @@
         }
       }
     },
+    "Up to 256 colors · sRGB" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大 256 色 · sRGB"
+          }
+        }
+      }
+    },
     "Updating preview…" : {
       "localizations" : {
         "ja" : {
@@ -12414,12 +15095,32 @@
         }
       }
     },
+    "Use a CMYK ICC profile, such as the one your printer gave you" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMYK の ICC プロファイル (印刷所から受け取ったものなど) を使う"
+          }
+        }
+      }
+    },
     "Use gridlines every %lld–%@ pixels and %lld–%lld subdivisions, no more than the pixels between gridlines." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "グリッド線の間隔は %1$lld〜%2$@ ピクセル、分割数は %3$lld〜%4$lld で、グリッド線の間のピクセル数以下にしてください。"
+          }
+        }
+      }
+    },
+    "Use smooth squircle corners at 60% smoothing, matching Figma's iOS setting" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スムージング 60% のスクワークル角を使う (Figma の iOS 設定と同じ)"
           }
         }
       }
@@ -12522,6 +15223,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "垂直方向"
+          }
+        }
+      }
+    },
+    "Vertical Centers" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "垂直方向の中央"
+          }
+        }
+      }
+    },
+    "Vertical Spacing" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "垂直方向の間隔"
           }
         }
       }
@@ -12646,6 +15371,46 @@
         }
       }
     },
+    "What fills the %@ channel: a layer or group read as grayscale, or solid black or white" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@チャンネルに入れるもの。グレースケールとして読むレイヤーかグループ、または黒か白の塗りつぶし"
+          }
+        }
+      }
+    },
+    "What’s new" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新機能"
+          }
+        }
+      }
+    },
+    "Which way the colors spread" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色がずれる方向"
+          }
+        }
+      }
+    },
+    "Which way the copies step" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーがずれていく方向"
+          }
+        }
+      }
+    },
     "White" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -12678,6 +15443,18 @@
         }
       }
     },
+    "White canvas" : {
+      "extractionState" : "manual",
+      "generatesSymbol" : false,
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "白いカンバス"
+          }
+        }
+      }
+    },
     "White · Reveal" : {
       "localizations" : {
         "ja" : {
@@ -12704,6 +15481,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "幅"
+          }
+        }
+      }
+    },
+    "Width in pixels; the height follows, keeping the proportions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幅 (ピクセル)。縦横比を保って高さも変わる"
+          }
+        }
+      }
+    },
+    "Width:Height" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幅:高さ"
+          }
+        }
+      }
+    },
+    "Width:height, such as 4:5 or 3:2" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幅:高さ (4:5 や 3:2 など)"
           }
         }
       }
@@ -12870,6 +15677,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ズームイン (⌘+)、現在 %@。100%% では、カンバスと同じく JPEG の 1 ピクセルが画面の 1 ピクセルになります"
+          }
+        }
+      }
+    },
+    "Zoom in (⌘+), now %@. At 100%% each pixel of the export is one pixel of the screen" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拡大 (⌘+)、現在 %@。100%% では書き出しの 1 ピクセルが画面の 1 ピクセルになる"
           }
         }
       }
@@ -13065,6 +15882,9 @@
     "px" : {
       "shouldTranslate" : false
     },
+    "sRGB" : {
+      "shouldTranslate" : false
+    },
     "sRGB · Transparent" : {
       "localizations" : {
         "ja" : {
@@ -13114,6 +15934,9 @@
       "generatesSymbol" : false,
       "shouldTranslate" : false
     },
+    "·" : {
+      "shouldTranslate" : false
+    },
     "· encoded preview, fitted to window" : {
       "localizations" : {
         "ja" : {
@@ -13123,6 +15946,9 @@
           }
         }
       }
+    },
+    "×" : {
+      "shouldTranslate" : false
     },
     "“%@” is a folder, which has no pixels of its own. Paint on a layer inside it, or on the folder’s mask." : {
       "localizations" : {

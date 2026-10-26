@@ -186,13 +186,13 @@ struct NativeLayerList: NSViewRepresentable {
             menu.addItem(mergeItem)
 
             // 7b. Convert to 16-Bit / Convert to 8-Bit
-            let depthTitle = session.activeLayer?.asset?.deep == nil ? "Convert to 16-Bit" : "Convert to 8-Bit"
+            let depthTitle = session.activeLayer?.asset?.deep == nil ? String(localized: "Convert to 16-Bit") : String(localized: "Convert to 8-Bit")
             let depthItem = NSMenuItem(title: depthTitle, action: #selector(convertDepthAction), keyEquivalent: "")
             depthItem.target = self
             depthItem.isEnabled = validateMenuItem(depthItem)
             // An HDR layer can go to 16 bits as well as to 8.
             if session.activeLayer?.asset?.isHDR == true {
-                let sixteenItem = NSMenuItem(title: "Convert to 16-Bit", action: #selector(convertHDRToSixteenAction), keyEquivalent: "")
+                let sixteenItem = NSMenuItem(title: String(localized: "Convert to 16-Bit"), action: #selector(convertHDRToSixteenAction), keyEquivalent: "")
                 sixteenItem.target = self
                 sixteenItem.isEnabled = validateMenuItem(sixteenItem)
                 menu.addItem(sixteenItem)
@@ -1057,9 +1057,9 @@ private final class LayerCell: NSTableCellView, NSTextFieldDelegate {
         if !renaming { nameLabel.stringValue = (layer.maskSourceID == nil ? "" : "↳ ") + layer.name }
         dimensions.stringValue = layer.liveText != nil ? String(localized: "Text · Double-click to edit") : layer.adjustment != nil ? String(localized: "Adjustment · Double-click to edit") : layer.isGroup ? String(localized: "Folder") : layer.sizeLabel
         depthTag.text = layer.depthLabel ?? ""
-        depthTag.toolTip = layer.gifAnimation != nil ? "Animated GIF: select it to show its frames under the canvas"
-            : layer.asset?.isHDR == true ? "HDR layer: keeps light brighter than white, shown as white"
-            : "16-bit layer: keeps 16 bits a channel"
+        depthTag.toolTip = layer.gifAnimation != nil ? String(localized: "Animated GIF: select it to show its frames under the canvas")
+            : layer.asset?.isHDR == true ? String(localized: "HDR layer: keeps light brighter than white, shown as white")
+            : String(localized: "16-bit layer: keeps 16 bits a channel")
         depthTag.isHidden = layer.depthLabel == nil || layer.maskSourceID != nil
         depthTagFits.isActive = !depthTag.isHidden
         if let source = layer.maskSourceID {
