@@ -6,71 +6,76 @@ struct LassoControls: View {
     var body: some View {
         HStack(spacing: 12) {
             Text(session.tool == .marquee ? "Marquee" : session.tool == .wand ? "Magic" : "Lasso").font(ToolHeaderStyle.titleFont)
-            if session.tool == .marquee {
-                Picker("Shape", selection: Binding(get: { session.marqueeKind }, set: { kind in
-                    session.cancelLasso()
-                    session.marqueeKind = kind
-                })) {
-                    ForEach(LassoKind.marqueeChoices, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
+            ScrollView(.horizontal) {
+                HStack(spacing: 12) {
+                    if session.tool == .marquee {
+                        Picker("Shape", selection: Binding(get: { session.marqueeKind }, set: { kind in
+                            session.cancelLasso()
+                            session.marqueeKind = kind
+                        })) {
+                            ForEach(LassoKind.marqueeChoices, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
+                        }
+                        .pickerStyle(.segmented).labelsHidden().fixedSize()
+                        .help("Press M to switch between Rectangle and Ellipse")
+                    }
+                    if session.tool == .wand {
+                        Picker("Mode", selection: Binding(get: { session.wandMode }, set: { mode in
+                            session.cancelLasso()
+                            session.wandMode = mode
+                        })) {
+                            ForEach(WandMode.allCases, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
+                        }
+                        .pickerStyle(.segmented).labelsHidden().fixedSize()
+                        .help("Press Tab to switch between Wand and Object")
+                    }
+                    if session.tool == .lasso {
+                        Picker("Lasso", selection: Binding(get: { session.lassoKind }, set: { kind in
+                            session.cancelLasso()
+                            session.lassoKind = kind
+                        })) {
+                            ForEach(LassoKind.lassoChoices, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
+                        }
+                        .pickerStyle(.segmented).labelsHidden().fixedSize()
+                        .help("Press L to switch between Freehand and Polygonal")
+                    }
+                    // Shows held Shift/Option (or an outline's mode) live; clicking sets the choice.
+                    Picker("Mode", selection: Binding(get: { session.displayedSelectionMode },
+                                                      set: { session.selectionModeChoice = $0 })) {
+                        ForEach(SelectionMode.allCases, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
+                    }
+                                                      .pickerStyle(.segmented).labelsHidden().fixedSize()
+                                                      .help("Hold Shift to add or Option to subtract for one outline")
+                    if session.tool == .wand, session.wandMode == .wand { wandControls }
+                    if session.tool == .wand, session.wandMode == .object { objectSelectionControls }
+                    // Rectangles snap to whole pixels, so smoothing doesn't apply (as in Photoshop); ellipses curve.
+                    if session.tool == .lasso || session.tool == .wand || (session.tool == .marquee && session.marqueeKind == .ellipse) {
+                        Toggle("Anti-alias", isOn: $session.selectionAntialiased)
+                            .help(session.tool == .wand && session.wandMode == .object ? "Smooth the detected object outline; turn off for the raw pixel mask" : "Smooth selection edges; turn off for hard pixel edges")
+                    }
+                    Divider().frame(height: 18)
+                    modifyControl("Expand", amount: $session.selectionExpandAmount) {
+                        session.expandSelection(by: session.selectionExpandAmount)
+                    }
+                    modifyControl("Contract", amount: $session.selectionContractAmount) {
+                        session.contractSelection(by: session.selectionContractAmount)
+                    }
+                    // Softens the selection's edge, as Select → Feather does.
+                    HStack(spacing: 5) {
+                        Button("Feather") { session.featherSelection(by: session.selectionFeatherAmount) }
+                            .disabled(!session.canModifySelection)
+                            .help("Fade the edge of the selection by this many pixels")
+                        TextField("Feather", value: Binding(get: { Double(session.selectionFeatherAmount) },
+                                                            set: { session.selectionFeatherAmount = $0.isFinite ? Int(min(250, max(1, $0))) : 2 }),
+                                  format: .number.precision(.fractionLength(0)))
+                        .frame(width: ToolHeaderStyle.threeDigits).textFieldStyle(.roundedBorder)
+                        .arrowSteps(value: { Double(session.selectionFeatherAmount) },
+                                    change: { session.selectionFeatherAmount = Int(min(250, max(1, $0))) })
+                        .unitSuffix("px", scrubValue: $session.selectionFeatherAmount,
+                                    sensitivity: 1, range: 1...250)
+                    }
                 }
-                .pickerStyle(.segmented).labelsHidden().fixedSize()
-                .help("Press M to switch between Rectangle and Ellipse")
             }
-            if session.tool == .wand {
-                Picker("Mode", selection: Binding(get: { session.wandMode }, set: { mode in
-                    session.cancelLasso()
-                    session.wandMode = mode
-                })) {
-                    ForEach(WandMode.allCases, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
-                }
-                .pickerStyle(.segmented).labelsHidden().fixedSize()
-                .help("Press Tab to switch between Wand and Object")
-            }
-            if session.tool == .lasso {
-                Picker("Lasso", selection: Binding(get: { session.lassoKind }, set: { kind in
-                    session.cancelLasso()
-                    session.lassoKind = kind
-                })) {
-                    ForEach(LassoKind.lassoChoices, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
-                }
-                .pickerStyle(.segmented).labelsHidden().fixedSize()
-                .help("Press L to switch between Freehand and Polygonal")
-            }
-            // Shows held Shift/Option (or an outline's mode) live; clicking sets the choice.
-            Picker("Mode", selection: Binding(get: { session.displayedSelectionMode },
-                                              set: { session.selectionModeChoice = $0 })) {
-                ForEach(SelectionMode.allCases, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
-            }
-            .pickerStyle(.segmented).labelsHidden().fixedSize()
-            .help("Hold Shift to add or Option to subtract for one outline")
-            if session.tool == .wand, session.wandMode == .wand { wandControls }
-            if session.tool == .wand, session.wandMode == .object { objectSelectionControls }
-            // Rectangles snap to whole pixels, so smoothing doesn't apply (as in Photoshop); ellipses curve.
-            if session.tool == .lasso || session.tool == .wand || (session.tool == .marquee && session.marqueeKind == .ellipse) {
-                Toggle("Anti-alias", isOn: $session.selectionAntialiased)
-                    .help(session.tool == .wand && session.wandMode == .object ? "Smooth the detected object outline; turn off for the raw pixel mask" : "Smooth selection edges; turn off for hard pixel edges")
-            }
-            Divider().frame(height: 18)
-            modifyControl("Expand", amount: $session.selectionExpandAmount) {
-                session.expandSelection(by: session.selectionExpandAmount)
-            }
-            modifyControl("Contract", amount: $session.selectionContractAmount) {
-                session.contractSelection(by: session.selectionContractAmount)
-            }
-            // Softens the selection's edge, as Select → Feather does.
-            HStack(spacing: 5) {
-                Button("Feather") { session.featherSelection(by: session.selectionFeatherAmount) }
-                    .disabled(!session.canModifySelection)
-                    .help("Fade the edge of the selection by this many pixels")
-                TextField("Feather", value: Binding(get: { Double(session.selectionFeatherAmount) },
-                                                    set: { session.selectionFeatherAmount = $0.isFinite ? Int(min(250, max(1, $0))) : 2 }),
-                          format: .number.precision(.fractionLength(0)))
-                    .frame(width: 48).textFieldStyle(.roundedBorder).multilineTextAlignment(.trailing)
-                    .arrowSteps(value: { Double(session.selectionFeatherAmount) },
-                                change: { session.selectionFeatherAmount = Int(min(250, max(1, $0))) })
-                    .unitSuffix("px", scrubValue: $session.selectionFeatherAmount,
-                                sensitivity: 1, range: 1...250)
-            }
+            .scrollIndicators(.never)
             Spacer(minLength: 0)
             if let selection = session.selection {
                 if selection.isEmpty { Text("Empty selection").foregroundStyle(.secondary) }
@@ -89,8 +94,7 @@ struct LassoControls: View {
                 TextField("Tolerance", value: Binding(get: { session.wandSettings.tolerance },
                                                       set: { session.wandSettings.tolerance = min(255, max(0, $0)) }),
                           format: .number)
-                    .frame(width: 44).textFieldStyle(.roundedBorder)
-                    .multilineTextAlignment(.trailing)
+                    .frame(width: ToolHeaderStyle.threeDigits).textFieldStyle(.roundedBorder)
                     .arrowSteps(value: { Double(session.wandSettings.tolerance) },
                                 change: { session.wandSettings.tolerance = Int(min(255, max(0, $0.rounded()))) })
             }
@@ -124,8 +128,7 @@ struct LassoControls: View {
                 TextField("Edge", value: Binding(get: { session.objectSelectionSettings.edgeOffset },
                                                  set: { session.objectSelectionSettings.edgeOffset = min(10, max(-10, $0)) }),
                           format: .number)
-                    .frame(width: 40).textFieldStyle(.roundedBorder)
-                    .multilineTextAlignment(.trailing)
+                    .frame(width: ToolHeaderStyle.threeDigits).textFieldStyle(.roundedBorder)
                     .arrowSteps(value: { Double(session.objectSelectionSettings.edgeOffset) },
                                 change: { session.objectSelectionSettings.edgeOffset = Int(min(10, max(-10, $0.rounded()))) })
                     .unitSuffix("px")
@@ -144,8 +147,7 @@ struct LassoControls: View {
             TextField(LocalizedStringKey(title), value: Binding(get: { amount.wrappedValue },
                                             set: { amount.wrappedValue = min(500, max(1, $0)) }),
                       format: .number)
-                .frame(width: 40).textFieldStyle(.roundedBorder)
-                .multilineTextAlignment(.trailing)
+                .frame(width: ToolHeaderStyle.threeDigits).textFieldStyle(.roundedBorder)
                 .arrowSteps(value: { Double(amount.wrappedValue) },
                             change: { amount.wrappedValue = Int(min(500, max(1, $0.rounded()))) })
                 .unitSuffix("px", scrubValue: amount, sensitivity: 1, range: 1...500)
