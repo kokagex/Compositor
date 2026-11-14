@@ -14,10 +14,23 @@
         }
       }
     },
+    " · Feather %lld px" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " · ぼかし %lld px"
+          }
+        }
+      }
+    },
     "#" : {
       "shouldTranslate" : false
     },
     "%" : {
+      "shouldTranslate" : false
+    },
+    "%@ %@" : {
       "shouldTranslate" : false
     },
     "%@ %@ is now available — you have %@. Would you like to download it now?" : {
@@ -176,6 +189,16 @@
         }
       }
     },
+    "%lld layers have nothing to export" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出す内容のないレイヤーが %lld 個あります"
+          }
+        }
+      }
+    },
     "%lld more tabs" : {
       "localizations" : {
         "ja" : {
@@ -192,6 +215,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld ms · %@ fps"
+          }
+        }
+      }
+    },
+    "%lld of these files already exist in “%@”. Replace them?" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これらのファイルのうち %1$lld 個が “%2$@” に既にあります。置き換えますか?"
           }
         }
       }
@@ -312,6 +345,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "次の作品のための空白のカンバスです。"
+          }
+        }
+      }
+    },
+    "A layer with no visible pixels, such as an adjustment layer, isn’t saved as a PNG." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調整レイヤーのように、見えるピクセルのないレイヤーは PNG として保存されません。"
           }
         }
       }
@@ -446,6 +489,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "シャドウ（内側）を追加"
+          }
+        }
+      }
+    },
+    "Add Light" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトを追加"
           }
         }
       }
@@ -1993,6 +2046,16 @@
         }
       }
     },
+    "Choke" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チョーク"
+          }
+        }
+      }
+    },
     "Choose a JPEG, PNG, GIF, HEIC, HEIF, TIFF, WebP, PDF, or Photoshop (PSD) file." : {
       "localizations" : {
         "ja" : {
@@ -2019,6 +2082,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "グリッドのカスタムカラーを選択"
+          }
+        }
+      }
+    },
+    "Choose a folder for the layers’ PNGs." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーの PNG を保存するフォルダーを選択してください。"
           }
         }
       }
@@ -2063,6 +2136,16 @@
         }
       }
     },
+    "Choose the light's color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトのカラーを選択"
+          }
+        }
+      }
+    },
     "Choose the lines' color" : {
       "localizations" : {
         "ja" : {
@@ -2089,6 +2172,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "周辺光量補正のカラーを選択"
+          }
+        }
+      }
+    },
+    "Choose this light's color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このライトのカラーを選択"
           }
         }
       }
@@ -2285,6 +2378,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カンバスをクリックまたはドラッグして中心を動かす"
+          }
+        }
+      }
+    },
+    "Click or drag on the canvas to move the light" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンバス上をクリックまたはドラッグしてライトを移動"
           }
         }
       }
@@ -2529,6 +2632,16 @@
         }
       }
     },
+    "Close the filter and add the depth the haze goes by as a new layer: white is near, black is far" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フィルターを閉じ、かすみの基準にする深度を新規レイヤーとして追加します (白が近く、黒が遠い)"
+          }
+        }
+      }
+    },
     "Close the search" : {
       "localizations" : {
         "ja" : {
@@ -2641,6 +2754,16 @@
         }
       }
     },
+    "Color Noise" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラーノイズ"
+          }
+        }
+      }
+    },
     "Color Overlay" : {
       "localizations" : {
         "ja" : {
@@ -2737,6 +2860,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カラーピッカー（グラデーションマップのシャドウ）"
+          }
+        }
+      }
+    },
+    "Color Picker (Light %lld)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラーピッカー（ライト %lld）"
           }
         }
       }
@@ -3237,6 +3370,16 @@
         }
       }
     },
+    "Couldn’t export layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを書き出せませんでした"
+          }
+        }
+      }
+    },
     "Couldn’t open the project" : {
       "localizations" : {
         "ja" : {
@@ -3397,6 +3540,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "変形後の空白の縁を切り抜き、結果をフレームに収めます。"
+          }
+        }
+      }
+    },
+    "Current color" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のカラー"
           }
         }
       }
@@ -3929,6 +4082,16 @@
         }
       }
     },
+    "Depth Contrast" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深度のコントラスト"
+          }
+        }
+      }
+    },
     "Deselect" : {
       "localizations" : {
         "ja" : {
@@ -4036,6 +4199,16 @@
       }
     },
     "Distance" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "距離"
+          }
+        }
+      }
+    },
+    "Distances" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
@@ -5305,12 +5478,32 @@
         }
       }
     },
+    "Export" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出す"
+          }
+        }
+      }
+    },
     "Export %@" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ を書き出す"
+          }
+        }
+      }
+    },
+    "Export %lld Layers as PNGs" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個のレイヤーを PNG として書き出す"
           }
         }
       }
@@ -5363,6 +5556,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "JPEG を書き出す…"
+          }
+        }
+      }
+    },
+    "Export Layer as PNG" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを PNG として書き出す"
+          }
+        }
+      }
+    },
+    "Export Layer as PNG…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを PNG として書き出す…"
+          }
+        }
+      }
+    },
+    "Export Layers as PNGs…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを PNG として書き出す…"
           }
         }
       }
@@ -5423,6 +5646,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拡張部分のカラー"
+          }
+        }
+      }
+    },
+    "Extract Depth" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深度を抽出"
           }
         }
       }
@@ -5695,6 +5928,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最終的なサイズは 1 辺あたり 1〜%@ ピクセルにする必要があります。"
+          }
+        }
+      }
+    },
+    "Finding the subject…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "被写体を検出中…"
           }
         }
       }
@@ -6031,6 +6274,16 @@
         }
       }
     },
+    "Fringe" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フリンジ"
+          }
+        }
+      }
+    },
     "Full justification was imported as left alignment." : {
       "localizations" : {
         "ja" : {
@@ -6113,6 +6366,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ジオメトリ"
+          }
+        }
+      }
+    },
+    "Getting depth…" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深度を取得中…"
           }
         }
       }
@@ -6395,6 +6658,16 @@
         }
       }
     },
+    "Haze" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "かすみ"
+          }
+        }
+      }
+    },
     "Height in pixels; the width follows, keeping the proportions" : {
       "localizations" : {
         "ja" : {
@@ -6413,6 +6686,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "六角形"
+          }
+        }
+      }
+    },
+    "Hide Layers" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを隠す"
           }
         }
       }
@@ -6461,6 +6744,16 @@
         }
       }
     },
+    "How big the light is" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトの大きさ"
+          }
+        }
+      }
+    },
     "How bright a light has to be to flare; near 100, only the biggest, brightest spots" : {
       "localizations" : {
         "ja" : {
@@ -6477,6 +6770,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "光芒が出る明るさのしきい値。100 近くでは最も大きく明るい光だけになる"
+          }
+        }
+      }
+    },
+    "How bright the beams are" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光線の明るさ"
           }
         }
       }
@@ -6517,6 +6820,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画面のライン同士の間隔"
+          }
+        }
+      }
+    },
+    "How far from the light the beams reach" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光線がライトからどこまで届くか"
+          }
+        }
+      }
+    },
+    "How far into the scene the haze begins: low reaches up to the camera, high leaves all but the farthest parts clear" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "かすみが始まる奥行き: 低いとカメラの手前まで広がり、高いと最も遠い部分以外はクリアに残ります"
           }
         }
       }
@@ -7061,6 +7384,16 @@
         }
       }
     },
+    "How far the light wraps around the subject's edges" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトが被写体の輪郭の内側へどこまで回り込むか"
+          }
+        }
+      }
+    },
     "How far the spikes reach" : {
       "localizations" : {
         "ja" : {
@@ -7101,6 +7434,16 @@
         }
       }
     },
+    "How many pixels to expand, contract or feather the selection by" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択範囲を拡張・縮小・ぼかすピクセル数"
+          }
+        }
+      }
+    },
     "How many spikes each light has, as the lens's aperture blades make them" : {
       "localizations" : {
         "ja" : {
@@ -7117,6 +7460,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画像が繰り返される回数 (後のものほど薄くなる)"
+          }
+        }
+      }
+    },
+    "How much colored speckle is smoothed into the colors around it" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラーの斑点を周囲のカラーになじませる度合い"
+          }
+        }
+      }
+    },
+    "How much fine texture and edges are kept while the grain is smoothed" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "粒子を滑らかにするとき、細かなテクスチャとエッジをどれだけ残すか"
+          }
+        }
+      }
+    },
+    "How much grain is smoothed from the picture's brightness" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像の明るさの粒子をどれだけ滑らかにするか"
           }
         }
       }
@@ -7187,6 +7560,16 @@
         }
       }
     },
+    "How much the beams break up into separate shafts" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光線が別々の筋に分かれる度合い"
+          }
+        }
+      }
+    },
     "How strongly edges and fine detail are brought out" : {
       "localizations" : {
         "ja" : {
@@ -7197,12 +7580,32 @@
         }
       }
     },
+    "How the light ends on the inside: low feathers it off softly from the edge, high holds it bright and ends it crisply" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトの内側の終わり方: 低いと縁から柔らかくぼかし、高いと明るさを保ってくっきり終わります"
+          }
+        }
+      }
+    },
     "How the line's ends, and each of its dashes and dots, are finished" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "線の端 (破線や点の 1 つずつも含む) の形"
+          }
+        }
+      }
+    },
+    "How thick the air is: haze lit by the light, thinner in front of the subject" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空気の濃さ: ライトに照らされるかすみで、被写体の手前ほど薄くなります"
           }
         }
       }
@@ -7721,6 +8124,16 @@
         }
       }
     },
+    "Intensity" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強度"
+          }
+        }
+      }
+    },
     "Inverse" : {
       "localizations" : {
         "ja" : {
@@ -7795,6 +8208,16 @@
         }
       }
     },
+    "Keep Subject Clear" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "被写体をクリアに保つ"
+          }
+        }
+      }
+    },
     "Keep the 16-bit layers' full precision, in a file about twice the size" : {
       "localizations" : {
         "ja" : {
@@ -7811,6 +8234,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ストローク間もソースをブラシと一緒に移動します。オフにすると毎回ソースポイントから描き始めます"
+          }
+        }
+      }
+    },
+    "Keep the subject clear of the haze; off, it's hazed by its own distance, so a figure far off is misted" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "被写体にかすみをかけません。オフにすると被写体自身の距離に応じてかすむため、遠くの人物はもやがかかります"
           }
         }
       }
@@ -8077,6 +8510,16 @@
         }
       }
     },
+    "Length" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長さ"
+          }
+        }
+      }
+    },
     "Lens Correction" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -8097,6 +8540,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レンズ効果"
+          }
+        }
+      }
+    },
+    "Let the lights glow in the air around the subject, blending them into the background" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトを被写体のまわりの空気中で光らせ、背景になじませます"
           }
         }
       }
@@ -8189,6 +8642,16 @@
         }
       }
     },
+    "Light %lld" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライト %lld"
+          }
+        }
+      }
+    },
     "Light blooming around the lines, like a CRT's phosphors" : {
       "localizations" : {
         "ja" : {
@@ -8245,6 +8708,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "暗い背景に明るい記号"
+          }
+        }
+      }
+    },
+    "Light the subject from another side as well" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "被写体をもう一方の側からも照らします"
           }
         }
       }
@@ -9921,6 +10394,16 @@
         }
       }
     },
+    "New filter layer" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規フィルターレイヤー"
+          }
+        }
+      }
+    },
     "New folder" : {
       "localizations" : {
         "ja" : {
@@ -11085,6 +11568,16 @@
         }
       }
     },
+    "Preserve Details" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ディテールを保持"
+          }
+        }
+      }
+    },
     "Preserve Luminosity" : {
       "localizations" : {
         "ja" : {
@@ -11663,6 +12156,16 @@
         }
       }
     },
+    "Reduce Noise" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ノイズ軽減"
+          }
+        }
+      }
+    },
     "Refine" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -11873,6 +12376,16 @@
         }
       }
     },
+    "Remove this light" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このライトを削除"
+          }
+        }
+      }
+    },
     "Remove this shortcut" : {
       "localizations" : {
         "ja" : {
@@ -11933,6 +12446,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "レイヤーの順序を変更"
+          }
+        }
+      }
+    },
+    "Replace" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "置き換える"
           }
         }
       }
@@ -12007,6 +12530,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "初期設定の描画色と背景色"
+          }
+        }
+      }
+    },
+    "Reset colors to black and white (D)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描画色と背景色を初期設定の黒と白に戻す (D)"
           }
         }
       }
@@ -12139,6 +12672,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "右端"
+          }
+        }
+      }
+    },
+    "Rim Light" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リムライト"
           }
         }
       }
@@ -12721,6 +13264,16 @@
         }
       }
     },
+    "Selection %lld × %lld px" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択範囲 %lld × %lld px"
+          }
+        }
+      }
+    },
     "Set a radius above 0 to use smooth corners." : {
       "localizations" : {
         "ja" : {
@@ -12805,6 +13358,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "シャドウ"
+          }
+        }
+      }
+    },
+    "Shafts" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光線"
           }
         }
       }
@@ -13097,6 +13660,16 @@
         }
       }
     },
+    "Show Extras" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エクストラを表示"
+          }
+        }
+      }
+    },
     "Show Grid" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -13146,6 +13719,16 @@
       }
     },
     "Show Layer" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レイヤーを表示"
+          }
+        }
+      }
+    },
+    "Show Layers" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
@@ -13557,6 +14140,16 @@
         }
       }
     },
+    "Split each copy's red and blue apart, as glass does; 0 keeps the copies crisp" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ガラスのように、コピーごとに赤と青をずらします。0 ならコピーはくっきりしたままです"
+          }
+        }
+      }
+    },
     "Split the layer's original channels into four grayscale layers, Red, Green, Blue and Alpha, for Export As › Channel Pack. Color under fully transparent pixels can't be recovered" : {
       "localizations" : {
         "ja" : {
@@ -13603,6 +14196,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拡がり"
+          }
+        }
+      }
+    },
+    "Spread out depths bunched together, such as a distant city, so the haze builds through them in steps; 0 keeps the depth as the model sees it" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠くの街並みなど近接した深度を広げ、かすみが段階的に重なるようにします。0 ならモデルが出した深度のままです"
           }
         }
       }
@@ -14177,6 +14780,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "描画に使う文字（順不同）。各箇所には階調に最も近いインク量の文字が使われます"
+          }
+        }
+      }
+    },
+    "The color before: click to go back to it" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更前のカラー: クリックで元に戻す"
           }
         }
       }
@@ -15313,6 +15926,16 @@
         }
       }
     },
+    "Volumetric Light" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボリュームライト"
+          }
+        }
+      }
+    },
     "W" : {
       "extractionState" : "manual",
       "generatesSymbol" : false,
@@ -15387,6 +16010,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新機能"
+          }
+        }
+      }
+    },
+    "Where the light comes from, behind the subject: 0° from the right, 90° from above" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "被写体の後ろでライトが来る方向: 0° は右から、90° は上から"
           }
         }
       }
@@ -15949,6 +16582,26 @@
     },
     "×" : {
       "shouldTranslate" : false
+    },
+    "“%@” already exists. Replace it?" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” は既にあります。置き換えますか?"
+          }
+        }
+      }
+    },
+    "“%@” has nothing to export" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” には書き出す内容がありません"
+          }
+        }
+      }
     },
     "“%@” is a folder, which has no pixels of its own. Paint on a layer inside it, or on the folder’s mask." : {
       "localizations" : {

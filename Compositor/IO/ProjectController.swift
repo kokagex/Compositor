@@ -84,7 +84,7 @@ final class ProjectController {
             panel.allowedContentTypes = [.png]
             panel.canCreateDirectories = true
             panel.isExtensionHidden = false
-            panel.title = "Export Layer as PNG"
+            panel.title = String(localized: "Export Layer as PNG")
             panel.nameFieldStringValue = names[0]
             guard await run(panel), let url = panel.url else { return }
             urls = [url]
@@ -94,19 +94,19 @@ final class ProjectController {
             panel.canChooseDirectories = true
             panel.canChooseFiles = false
             panel.canCreateDirectories = true
-            panel.title = "Export \(layers.count) Layers as PNGs"
-            panel.message = "Choose a folder for the layers’ PNGs."
-            panel.prompt = "Export"
+            panel.title = String(localized: "Export \(layers.count) Layers as PNGs")
+            panel.message = String(localized: "Choose a folder for the layers’ PNGs.")
+            panel.prompt = String(localized: "Export")
             guard await run(panel), let url = panel.url else { return }
             urls = names.map { url.appendingPathComponent($0) }
             folder = url
             let existing = urls.filter { FileManager.default.fileExists(atPath: $0.path) }
             if !existing.isEmpty {
                 let alert = NSAlert()
-                alert.messageText = existing.count == 1 ? "“\(existing[0].lastPathComponent)” already exists. Replace it?"
-                    : "\(existing.count) of these files already exist in “\(url.lastPathComponent)”. Replace them?"
-                alert.addButton(withTitle: "Replace")
-                alert.addButton(withTitle: "Cancel")
+                alert.messageText = existing.count == 1 ? String(localized: "“\(existing[0].lastPathComponent)” already exists. Replace it?")
+                    : String(localized: "\(existing.count) of these files already exist in “\(url.lastPathComponent)”. Replace them?")
+                alert.addButton(withTitle: String(localized: "Replace"))
+                alert.addButton(withTitle: String(localized: "Cancel"))
                 guard await show(alert) == .alertFirstButtonReturn else { return }
             }
         }
@@ -120,12 +120,12 @@ final class ProjectController {
                 }
                 try await ImageExporter.shared.write(data, to: url)
             }
-        } catch { await showError("Couldn’t export layers", error: error); return }
+        } catch { await showError(String(localized: "Couldn’t export layers"), error: error); return }
         if !empty.isEmpty {
             let alert = NSAlert()
-            alert.messageText = empty.count == 1 ? "“\(empty[0])” has nothing to export" : "\(empty.count) layers have nothing to export"
-            alert.informativeText = "A layer with no visible pixels, such as an adjustment layer, isn’t saved as a PNG."
-            alert.addButton(withTitle: "OK")
+            alert.messageText = empty.count == 1 ? String(localized: "“\(empty[0])” has nothing to export") : String(localized: "\(empty.count) layers have nothing to export")
+            alert.informativeText = String(localized: "A layer with no visible pixels, such as an adjustment layer, isn’t saved as a PNG.")
+            alert.addButton(withTitle: String(localized: "OK"))
             _ = await show(alert)
         }
     }

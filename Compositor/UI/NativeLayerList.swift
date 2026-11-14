@@ -248,7 +248,7 @@ struct NativeLayerList: NSViewRepresentable {
             menu.addItem(NSMenuItem.separator())
 
             // 13. Export Layer as PNG… / Export Layers as PNGs…
-            let exportTitle = session.selectedLayerIDs.count > 1 ? "Export Layers as PNGs…" : "Export Layer as PNG…"
+            let exportTitle = session.selectedLayerIDs.count > 1 ? String(localized: "Export Layers as PNGs…") : String(localized: "Export Layer as PNG…")
             let exportItem = NSMenuItem(title: exportTitle, action: #selector(exportLayersAction), keyEquivalent: "")
             exportItem.target = self
             exportItem.isEnabled = validateMenuItem(exportItem)
