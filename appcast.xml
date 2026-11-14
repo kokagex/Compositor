@@ -3,17 +3,15 @@
   <channel>
     <title>Compositor</title>
     <item>
-      <title>Version 1.5.10</title>
-      <pubDate>Mon, 26 Oct 2026 05:12:56 +0000</pubDate>
-      <sparkle:version>56</sparkle:version>
-      <sparkle:shortVersionString>1.5.10</sparkle:shortVersionString>
+      <title>Version 1.6.6</title>
+      <pubDate>Sun, 08 Nov 2026 01:27:10 +0000</pubDate>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <link>https://github.com/robbietilton/Compositor/releases/tag/v1.5.10</link>
-      <changes><![CDATA[Filter › Sharpen: an unsharp mask with Amount and Radius, also as an adjustment layer.
-Align and Distribute layers, from the Align button in the Move tool's bar or the Layer menu.
-Crop to any ratio with Custom…, plus a 2.39:1 widescreen preset; the ratios are grouped by shape, and Original is now Canvas.
-Tidier tool bars: flip buttons as icons, and number fields sized to fit.]]></changes>
-      <enclosure url="https://github.com/robbietilton/Compositor/releases/download/v1.5.10/Compositor.dmg" sparkle:edSignature="1QqBLIcqC4rS2QuGoecWk4tEHtLUFQ/lBFgV1DcyulGxWDOapL/4CW+ulWGgndZTHzd2wX/MP8lsaKh2CHNsAQ==" length="8612555" type="application/octet-stream"/>
+      <link>https://github.com/robbietilton/Compositor/releases/tag/v1.6.6</link>
+      <changes><![CDATA[Opening a PNG or other image names the canvas after the file, and Export and Save start with its name and folder
+Export As remembers the format you last used and opens with ⌥⇧⌘S, Photoshop's familiar shortcut]]></changes>
+      <enclosure url="https://github.com/robbietilton/Compositor/releases/download/v1.6.6/Compositor.dmg" sparkle:edSignature="bdO+t+SenkeeembufneooQQ26xspE4Sg+jnYyiSaIAJ7TtZJiHJ4mGtv2f6yHJ7ipJISWW4sX4pogpXGHS3QDw==" length="8867874" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
